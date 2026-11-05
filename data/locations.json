@@ -1,0 +1,6144 @@
+[
+{
+"key": "1:2:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Red Hood's House - Blue Soul"
+},
+{
+"key": "2:2:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 337,
+"amount": 1,
+"item": "Sorcery [Silence Bubble]",
+"quest": false,
+"name": "Fort Ivern - Sorcery [Silence Bubble]"
+},
+{
+"key": "2:4:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Fort Ivern - Candy"
+},
+{
+"key": "2:9:0:1",
+"area": "Fort Ivern",
+"kind": "armor",
+"id": 89,
+"amount": 1,
+"item": "Poisonbite Ring",
+"quest": false,
+"name": "Fort Ivern - Poisonbite Ring"
+},
+{
+"key": "2:14:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Fort Ivern - Homeward Bonedust"
+},
+{
+"key": "2:15:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Fort Ivern - Herb Flask M"
+},
+{
+"key": "2:24:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Fort Ivern - Red Soul"
+},
+{
+"key": "3:2:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Red Hood's House - Black Soul"
+},
+{
+"key": "3:3:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Red Hood's House - Herb Flask"
+},
+{
+"key": "3:6:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Red Hood's House - Red Soul"
+},
+{
+"key": "3:9:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Red Hood's House - Candy"
+},
+{
+"key": "3:10:1:37",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood]",
+"alt_keys": [
+"3:10:1:40"
+]
+},
+{
+"key": "4:6:1:21",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 17,
+"amount": 3,
+"item": "Erin's Remedy",
+"quest": true,
+"name": "Kun-Yan - Erin's Remedy x3"
+},
+{
+"key": "4:7:0:1",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 121,
+"amount": 1,
+"item": "Wicked King's Ring",
+"quest": false,
+"name": "Kun-Yan - Wicked King's Ring"
+},
+{
+"key": "5:3:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Red Hood's House - Red Soul 2"
+},
+{
+"key": "5:5:0:1",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Red Hood's House - Herb Flask 2"
+},
+{
+"key": "5:8:0:8",
+"area": "Red Hood's House",
+"kind": "weapon",
+"id": 189,
+"amount": 1,
+"item": "Butcher Greataxe",
+"quest": false,
+"name": "Red Hood's House - Butcher Greataxe"
+},
+{
+"key": "5:11:0:98",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 2",
+"alt_keys": [
+"5:11:0:101"
+]
+},
+{
+"key": "5:11:1:117",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 3",
+"alt_keys": [
+"5:11:1:120"
+]
+},
+{
+"key": "5:11:2:85",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 4",
+"alt_keys": [
+"5:11:2:88"
+]
+},
+{
+"key": "5:11:2:135",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 5",
+"alt_keys": [
+"5:11:2:138"
+]
+},
+{
+"key": "5:11:3:99",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 6",
+"alt_keys": [
+"5:11:3:102"
+]
+},
+{
+"key": "5:11:3:149",
+"area": "Red Hood's House",
+"kind": "item",
+"id": 304,
+"amount": 1,
+"item": "Fairy-tale [Little Red Riding Hood]",
+"quest": true,
+"name": "Red Hood's House - Fairy-tale [Little Red Riding Hood] 7",
+"alt_keys": [
+"5:11:3:152"
+]
+},
+{
+"key": "6:20:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Fort Ivern - Ore Shard"
+},
+{
+"key": "6:21:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 5,
+"amount": 1,
+"item": "Bleed-stopper",
+"quest": false,
+"name": "Fort Ivern - Bleed-stopper"
+},
+{
+"key": "6:22:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Fort Ivern - Homeward Bonedust 2"
+},
+{
+"key": "6:23:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 7,
+"amount": 1,
+"item": "Cure Herb",
+"quest": false,
+"name": "Fort Ivern - Cure Herb"
+},
+{
+"key": "6:28:0:8",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Fort Ivern - Magistone"
+},
+{
+"key": "6:30:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Fort Ivern - Feather of Immortal Bird"
+},
+{
+"key": "8:44:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 9,
+"amount": 3,
+"item": "Green Soul",
+"quest": false,
+"name": "Kun-Yan - Green Soul x3"
+},
+{
+"key": "8:45:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Kun-Yan - Ore Slab"
+},
+{
+"key": "8:46:0:8",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 96,
+"amount": 1,
+"item": "Sloppy",
+"quest": false,
+"name": "Kun-Yan - Sloppy"
+},
+{
+"key": "8:47:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Kun-Yan - Soul of a Great Hero"
+},
+{
+"key": "8:48:0:8",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 109,
+"amount": 1,
+"item": "Black Ring",
+"quest": false,
+"name": "Kun-Yan - Black Ring"
+},
+{
+"key": "8:49:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Kun-Yan - Divine Blessing"
+},
+{
+"key": "8:50:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 15,
+"amount": 3,
+"item": "White Soul",
+"quest": false,
+"name": "Kun-Yan - White Soul x3"
+},
+{
+"key": "8:51:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Kun-Yan - Black Soul"
+},
+{
+"key": "8:52:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Kun-Yan - Black Soul 2"
+},
+{
+"key": "8:53:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner"
+},
+{
+"key": "8:54:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 2"
+},
+{
+"key": "8:55:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 3"
+},
+{
+"key": "8:56:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 4"
+},
+{
+"key": "9:18:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Fort Ivern - Large Ore Shard"
+},
+{
+"key": "9:19:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul"
+},
+{
+"key": "9:20:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 2"
+},
+{
+"key": "9:21:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 3"
+},
+{
+"key": "9:22:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 4"
+},
+{
+"key": "9:23:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 5"
+},
+{
+"key": "9:24:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 6"
+},
+{
+"key": "9:25:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 7"
+},
+{
+"key": "9:26:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 8"
+},
+{
+"key": "9:27:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Fort Ivern - Master Key"
+},
+{
+"key": "9:30:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 9"
+},
+{
+"key": "9:31:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 10"
+},
+{
+"key": "9:32:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 11"
+},
+{
+"key": "9:33:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 12"
+},
+{
+"key": "9:34:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Fading Soul 13"
+},
+{
+"key": "9:35:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 55,
+"amount": 1,
+"item": "Jeanne's Ashes",
+"quest": false,
+"name": "Fort Ivern - Jeanne's Ashes"
+},
+{
+"key": "9:40:0:1",
+"area": "Fort Ivern",
+"kind": "armor",
+"id": 136,
+"amount": 1,
+"item": "Champion's Ring",
+"quest": false,
+"name": "Fort Ivern - Champion's Ring"
+},
+{
+"key": "10:12:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Holy Forest - Ore Shard"
+},
+{
+"key": "10:13:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Holy Forest - Medical Herb"
+},
+{
+"key": "10:14:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Holy Forest - Herb Flask"
+},
+{
+"key": "10:15:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Holy Forest - Soul of a Lost Undead"
+},
+{
+"key": "10:16:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 24,
+"amount": 1,
+"item": "Fairy Powder",
+"quest": false,
+"name": "Holy Forest - Fairy Powder"
+},
+{
+"key": "10:19:4:0",
+"area": "Holy Forest",
+"kind": "armor",
+"id": 87,
+"amount": 1,
+"item": "Silver Ring of Avarice",
+"quest": false,
+"name": "Holy Forest - Silver Ring of Avarice"
+},
+{
+"key": "10:19:4:1",
+"area": "Holy Forest",
+"kind": "armor",
+"id": 88,
+"amount": 1,
+"item": "Golden Ring of Avarice",
+"quest": false,
+"name": "Holy Forest - Golden Ring of Avarice"
+},
+{
+"key": "10:26:3:34",
+"area": "Holy Forest",
+"kind": "item",
+"id": 9,
+"amount": 5,
+"item": "Green Soul",
+"quest": true,
+"name": "Holy Forest - Green Soul x5"
+},
+{
+"key": "10:26:3:35",
+"area": "Holy Forest",
+"kind": "item",
+"id": 10,
+"amount": 5,
+"item": "Purple Soul",
+"quest": true,
+"name": "Holy Forest - Purple Soul x5"
+},
+{
+"key": "10:26:3:36",
+"area": "Holy Forest",
+"kind": "item",
+"id": 11,
+"amount": 5,
+"item": "Red Soul",
+"quest": true,
+"name": "Holy Forest - Red Soul x5"
+},
+{
+"key": "10:26:3:37",
+"area": "Holy Forest",
+"kind": "item",
+"id": 12,
+"amount": 5,
+"item": "Blue Soul",
+"quest": true,
+"name": "Holy Forest - Blue Soul x5"
+},
+{
+"key": "10:26:3:38",
+"area": "Holy Forest",
+"kind": "item",
+"id": 13,
+"amount": 5,
+"item": "Yellow Soul",
+"quest": true,
+"name": "Holy Forest - Yellow Soul x5"
+},
+{
+"key": "10:26:3:39",
+"area": "Holy Forest",
+"kind": "item",
+"id": 14,
+"amount": 5,
+"item": "Ashen Soul",
+"quest": true,
+"name": "Holy Forest - Ashen Soul x5"
+},
+{
+"key": "10:26:3:40",
+"area": "Holy Forest",
+"kind": "item",
+"id": 15,
+"amount": 5,
+"item": "White Soul",
+"quest": true,
+"name": "Holy Forest - White Soul x5"
+},
+{
+"key": "10:31:0:1",
+"area": "Holy Forest",
+"kind": "armor",
+"id": 77,
+"amount": 1,
+"item": "Ring of Fragile Life",
+"quest": false,
+"name": "Holy Forest - Ring of Fragile Life"
+},
+{
+"key": "10:36:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 181,
+"amount": 1,
+"item": "Black Ash",
+"quest": false,
+"name": "Holy Forest - Black Ash"
+},
+{
+"key": "11:5:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Holy Forest - Ore Shard 2"
+},
+{
+"key": "11:6:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Holy Forest - Red Soul"
+},
+{
+"key": "11:7:0:8",
+"area": "Holy Forest",
+"kind": "item",
+"id": 49,
+"amount": 5,
+"item": "Candy",
+"quest": false,
+"name": "Holy Forest - Candy x5"
+},
+{
+"key": "11:14:0:7",
+"area": "Holy Forest",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": true,
+"name": "Holy Forest - Candy"
+},
+{
+"key": "12:11:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Kun-Yan - Black Soul 3"
+},
+{
+"key": "12:12:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 5"
+},
+{
+"key": "13:2:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Holy Forest - Candy 2"
+},
+{
+"key": "14:4:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Holy Forest - Medical Herb 2"
+},
+{
+"key": "14:5:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Holy Forest - Herb Flask 2"
+},
+{
+"key": "14:17:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 295,
+"amount": 1,
+"item": "Fairy-tale [Saint of Alexandria]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Saint of Alexandria]"
+},
+{
+"key": "15:8:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 18,
+"amount": 5,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Holy Forest - Homeward Bonedust x5"
+},
+{
+"key": "16:3:0:1",
+"area": "Forest of the Abandoned",
+"kind": "armor",
+"id": 124,
+"amount": 1,
+"item": "Toto's Ring",
+"quest": false,
+"name": "Forest of the Abandoned - Toto's Ring"
+},
+{
+"key": "17:49:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Kun-Yan - Feather of Immortal Bird"
+},
+{
+"key": "17:50:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 7,
+"amount": 3,
+"item": "Cure Herb",
+"quest": false,
+"name": "Kun-Yan - Cure Herb x3"
+},
+{
+"key": "17:51:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Kun-Yan - Herb Flask"
+},
+{
+"key": "17:52:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 10,
+"amount": 3,
+"item": "Purple Soul",
+"quest": false,
+"name": "Kun-Yan - Purple Soul x3"
+},
+{
+"key": "17:53:0:8",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 97,
+"amount": 1,
+"item": "Squishy",
+"quest": false,
+"name": "Kun-Yan - Squishy"
+},
+{
+"key": "18:16:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Forest of the Abandoned - Soul of a Lost Undead"
+},
+{
+"key": "18:17:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Forest of the Abandoned - Soul of a Lost Undead 2"
+},
+{
+"key": "18:18:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Forest of the Abandoned - Rubbish"
+},
+{
+"key": "18:19:0:8",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Forest of the Abandoned - Herb Flask"
+},
+{
+"key": "18:20:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 24,
+"amount": 1,
+"item": "Fairy Powder",
+"quest": false,
+"name": "Forest of the Abandoned - Fairy Powder"
+},
+{
+"key": "18:21:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 3,
+"amount": 5,
+"item": "Medical Herb",
+"quest": false,
+"name": "Forest of the Abandoned - Medical Herb x5"
+},
+{
+"key": "19:10:0:17",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 51,
+"amount": 1,
+"item": "Anti-Fairy",
+"quest": false,
+"name": "Forest of the Abandoned - Anti-Fairy"
+},
+{
+"key": "19:10:1:13",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": true,
+"name": "Forest of the Abandoned - Herb Flask 2"
+},
+{
+"key": "19:10:2:12",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": true,
+"name": "Forest of the Abandoned - Herb Flask 3"
+},
+{
+"key": "19:21:0:11",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Forest of the Abandoned - Large Ore Shard"
+},
+{
+"key": "19:25:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Forest of the Abandoned - Rubbish 2"
+},
+{
+"key": "19:26:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Forest of the Abandoned - Rubbish 3"
+},
+{
+"key": "19:27:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Forest of the Abandoned - Medical Herb"
+},
+{
+"key": "19:28:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 182,
+"amount": 1,
+"item": "Fairy's Wing",
+"quest": false,
+"name": "Forest of the Abandoned - Fairy's Wing"
+},
+{
+"key": "19:29:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Forest of the Abandoned - Soul of a Nameless Soldier"
+},
+{
+"key": "19:30:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Forest of the Abandoned - Soul of a Lost Undead 3"
+},
+{
+"key": "19:31:0:1",
+"area": "Forest of the Abandoned",
+"kind": "armor",
+"id": 80,
+"amount": 1,
+"item": "Ring of Enduring",
+"quest": false,
+"name": "Forest of the Abandoned - Ring of Enduring"
+},
+{
+"key": "19:32:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 30,
+"amount": 5,
+"item": "Firebomb",
+"quest": false,
+"name": "Forest of the Abandoned - Firebomb x5"
+},
+{
+"key": "19:33:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Forest of the Abandoned - Medical Herb 2"
+},
+{
+"key": "19:34:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 182,
+"amount": 1,
+"item": "Fairy's Wing",
+"quest": false,
+"name": "Forest of the Abandoned - Fairy's Wing 2"
+},
+{
+"key": "19:35:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Forest of the Abandoned - Medical Herb 3"
+},
+{
+"key": "19:36:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Forest of the Abandoned - Rubbish 4"
+},
+{
+"key": "19:37:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Forest of the Abandoned - Homeward Bonedust"
+},
+{
+"key": "19:39:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Forest of the Abandoned - Medical Herb 4"
+},
+{
+"key": "19:40:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Forest of the Abandoned - Ore Shard"
+},
+{
+"key": "19:41:0:9",
+"area": "Forest of the Abandoned",
+"kind": "weapon",
+"id": 101,
+"amount": 1,
+"item": "Knight's Sword",
+"quest": false,
+"name": "Forest of the Abandoned - Knight's Sword"
+},
+{
+"key": "19:41:0:20",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Forest of the Abandoned - Divine Blessing"
+},
+{
+"key": "19:47:0:3",
+"area": "Forest of the Abandoned",
+"kind": "armor",
+"id": 104,
+"amount": 1,
+"item": "Ring of Iron Maiden",
+"quest": true,
+"name": "Forest of the Abandoned - Ring of Iron Maiden"
+},
+{
+"key": "20:15:0:1",
+"area": "Forest of the Abandoned",
+"kind": "weapon",
+"id": 283,
+"amount": 1,
+"item": "Broken Sword",
+"quest": false,
+"name": "Forest of the Abandoned - Broken Sword"
+},
+{
+"key": "20:16:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Forest of the Abandoned - Soul of a Lost Undead 4"
+},
+{
+"key": "20:17:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb"
+},
+{
+"key": "20:18:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 2"
+},
+{
+"key": "20:19:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 3"
+},
+{
+"key": "20:20:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 4"
+},
+{
+"key": "20:21:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 5"
+},
+{
+"key": "20:22:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 6"
+},
+{
+"key": "20:23:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 7"
+},
+{
+"key": "20:24:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 8"
+},
+{
+"key": "21:6:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Forest of the Abandoned - Magistone"
+},
+{
+"key": "21:8:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 9"
+},
+{
+"key": "21:9:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 10"
+},
+{
+"key": "21:10:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 53,
+"amount": 1,
+"item": "Breadcrumb",
+"quest": false,
+"name": "Forest of the Abandoned - Breadcrumb 11"
+},
+{
+"key": "22:8:1:63",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": true,
+"name": "Forest of the Abandoned - Master Key"
+},
+{
+"key": "22:9:0:9",
+"area": "Forest of the Abandoned",
+"kind": "weapon",
+"id": 167,
+"amount": 1,
+"item": "Sorcerer's Staff",
+"quest": false,
+"name": "Forest of the Abandoned - Sorcerer's Staff"
+},
+{
+"key": "22:9:0:20",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Forest of the Abandoned - Herb Flask M"
+},
+{
+"key": "22:10:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 10,
+"amount": 1,
+"item": "Purple Soul",
+"quest": false,
+"name": "Forest of the Abandoned - Purple Soul"
+},
+{
+"key": "22:11:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 15,
+"amount": 1,
+"item": "White Soul",
+"quest": false,
+"name": "Forest of the Abandoned - White Soul"
+},
+{
+"key": "22:12:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 14,
+"amount": 1,
+"item": "Ashen Soul",
+"quest": false,
+"name": "Forest of the Abandoned - Ashen Soul"
+},
+{
+"key": "22:21:0:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 273,
+"amount": 1,
+"item": "Fairy-tale [Hansel&Gretel]",
+"quest": true,
+"name": "Forest of the Abandoned - Fairy-tale [Hansel&Gretel]"
+},
+{
+"key": "22:21:1:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 273,
+"amount": 1,
+"item": "Fairy-tale [Hansel&Gretel]",
+"quest": true,
+"name": "Forest of the Abandoned - Fairy-tale [Hansel&Gretel] 2"
+},
+{
+"key": "22:21:2:1",
+"area": "Forest of the Abandoned",
+"kind": "item",
+"id": 273,
+"amount": 1,
+"item": "Fairy-tale [Hansel&Gretel]",
+"quest": true,
+"name": "Forest of the Abandoned - Fairy-tale [Hansel&Gretel] 3"
+},
+{
+"key": "23:3:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Sewers - Large Soul of a Lost Undead"
+},
+{
+"key": "23:4:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Sewers - Herb Flask M"
+},
+{
+"key": "23:5:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Sewers - Candy"
+},
+{
+"key": "23:6:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Sewers - White and Sticky"
+},
+{
+"key": "23:7:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 5,
+"amount": 1,
+"item": "Bleed-stopper",
+"quest": false,
+"name": "Sewers - Bleed-stopper"
+},
+{
+"key": "23:9:0:9",
+"area": "Sewers",
+"kind": "weapon",
+"id": 112,
+"amount": 1,
+"item": "Thief's Dagger",
+"quest": false,
+"name": "Sewers - Thief's Dagger"
+},
+{
+"key": "23:9:0:20",
+"area": "Sewers",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Sewers - Soul of a Proud Knight"
+},
+{
+"key": "23:10:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Sewers - Rubbish"
+},
+{
+"key": "23:11:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Sewers - Charcoal Pine Resin"
+},
+{
+"key": "23:12:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 24,
+"amount": 1,
+"item": "Fairy Powder",
+"quest": false,
+"name": "Sewers - Fairy Powder"
+},
+{
+"key": "23:13:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 4,
+"amount": 3,
+"item": "Antidote Herb",
+"quest": false,
+"name": "Sewers - Antidote Herb x3"
+},
+{
+"key": "23:14:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 6,
+"amount": 1,
+"item": "Eye Drops",
+"quest": false,
+"name": "Sewers - Eye Drops"
+},
+{
+"key": "25:68:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Sewers - Soul of a Nameless Soldier"
+},
+{
+"key": "25:69:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Sewers - Soul of a Nameless Soldier 2"
+},
+{
+"key": "25:70:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Sewers - Soul of a Nameless Soldier 3"
+},
+{
+"key": "25:71:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Sewers - Soul of a Nameless Soldier 4"
+},
+{
+"key": "25:72:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Sewers - Large Soul of a Nameless Soldier"
+},
+{
+"key": "25:73:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Sewers - Large Ore Shard"
+},
+{
+"key": "25:74:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Sewers - Master Key"
+},
+{
+"key": "25:75:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Sewers - Ore Shard"
+},
+{
+"key": "25:76:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Sewers - Ore Shard 2"
+},
+{
+"key": "25:77:0:8",
+"area": "Sewers",
+"kind": "armor",
+"id": 81,
+"amount": 1,
+"item": "Ring of the Evil Eye",
+"quest": false,
+"name": "Sewers - Ring of the Evil Eye"
+},
+{
+"key": "25:78:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Sewers - Divine Blessing"
+},
+{
+"key": "25:79:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 30,
+"amount": 1,
+"item": "Firebomb",
+"quest": false,
+"name": "Sewers - Firebomb"
+},
+{
+"key": "25:80:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 20,
+"amount": 1,
+"item": "Invisibility Powder",
+"quest": false,
+"name": "Sewers - Invisibility Powder"
+},
+{
+"key": "25:81:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Sewers - Homeward Bonedust"
+},
+{
+"key": "25:83:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Sewers - Candy 2"
+},
+{
+"key": "25:85:0:7",
+"area": "Sewers",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": true,
+"name": "Sewers - Soul of a Proud Knight 2"
+},
+{
+"key": "25:95:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 290,
+"amount": 1,
+"item": "Fairy-tale [Little Match Girl]",
+"quest": true,
+"name": "Sewers - Fairy-tale [Little Match Girl]"
+},
+{
+"key": "25:97:0:1",
+"area": "Sewers",
+"kind": "item",
+"id": 335,
+"amount": 1,
+"item": "Sorcery [Withstand]",
+"quest": false,
+"name": "Sewers - Sorcery [Withstand]"
+},
+{
+"key": "27:19:0:8",
+"area": "Rotten Burg",
+"kind": "armor",
+"id": 101,
+"amount": 1,
+"item": "Clear Mind Ring",
+"quest": false,
+"name": "Rotten Burg - Clear Mind Ring"
+},
+{
+"key": "27:21:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Lost Undead"
+},
+{
+"key": "27:22:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 7,
+"amount": 1,
+"item": "Cure Herb",
+"quest": false,
+"name": "Rotten Burg - Cure Herb"
+},
+{
+"key": "27:23:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 26,
+"amount": 5,
+"item": "Ore Shard",
+"quest": false,
+"name": "Rotten Burg - Ore Shard x5"
+},
+{
+"key": "27:24:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Rotten Burg - Medical Herb"
+},
+{
+"key": "27:25:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Rotten Burg - White and Sticky"
+},
+{
+"key": "27:26:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Rotten Burg - Herb Flask"
+},
+{
+"key": "27:27:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Rotten Burg - Candy"
+},
+{
+"key": "27:31:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Rotten Burg - White and Sticky 2"
+},
+{
+"key": "27:32:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 3,
+"amount": 3,
+"item": "Medical Herb",
+"quest": false,
+"name": "Rotten Burg - Medical Herb x3"
+},
+{
+"key": "27:39:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Rotten Burg - Soul of a Nameless Soldier"
+},
+{
+"key": "27:62:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Rotten Burg - Medical Herb 2"
+},
+{
+"key": "27:63:0:8",
+"area": "Rotten Burg",
+"kind": "weapon",
+"id": 104,
+"amount": 1,
+"item": "Knight's Sword+3",
+"quest": false,
+"name": "Rotten Burg - Knight's Sword+3"
+},
+{
+"key": "27:63:0:9",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Proud Knight"
+},
+{
+"key": "27:66:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Nameless Soldier"
+},
+{
+"key": "27:67:0:1",
+"area": "Rotten Burg",
+"kind": "armor",
+"id": 79,
+"amount": 1,
+"item": "Life Ring",
+"quest": false,
+"name": "Rotten Burg - Life Ring"
+},
+{
+"key": "27:68:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Nameless Soldier 2"
+},
+{
+"key": "27:69:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Rotten Burg - Ore Shard"
+},
+{
+"key": "27:91:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 336,
+"amount": 1,
+"item": "Sorcery [Flame]",
+"quest": false,
+"name": "Rotten Burg - Sorcery [Flame]"
+},
+{
+"key": "32:8:0:1",
+"area": "Rotten Burg Locked Rooms",
+"kind": "item",
+"id": 290,
+"amount": 1,
+"item": "Fairy-tale [Little Match Girl]",
+"quest": true,
+"name": "Rotten Burg Locked Rooms - Fairy-tale [Little Match Girl]"
+},
+{
+"key": "32:9:0:1",
+"area": "Rotten Burg Locked Rooms",
+"kind": "armor",
+"id": 120,
+"amount": 1,
+"item": "Sniper's Ring",
+"quest": false,
+"name": "Rotten Burg Locked Rooms - Sniper's Ring"
+},
+{
+"key": "33:8:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Rotten Burg - Candy 2"
+},
+{
+"key": "33:17:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Rotten Burg - Master Key"
+},
+{
+"key": "34:39:1:3",
+"area": "Fort Ivern",
+"kind": "armor",
+"id": 131,
+"amount": 1,
+"item": "Leaf's Ring",
+"quest": false,
+"name": "Fort Ivern - Leaf's Ring"
+},
+{
+"key": "35:20:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Behemoth Ranch - Soul of a Nameless Soldier"
+},
+{
+"key": "35:21:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 31,
+"amount": 1,
+"item": "Dung Pie",
+"quest": false,
+"name": "Behemoth Ranch - Dung Pie"
+},
+{
+"key": "35:22:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 13,
+"amount": 1,
+"item": "Yellow Soul",
+"quest": false,
+"name": "Behemoth Ranch - Yellow Soul"
+},
+{
+"key": "35:23:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Behemoth Ranch - Large Soul of a Lost Undead"
+},
+{
+"key": "35:24:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Behemoth Ranch - Candy"
+},
+{
+"key": "36:45:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Behemoth Ranch - Master Key"
+},
+{
+"key": "36:46:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Behemoth Ranch - Candy 2"
+},
+{
+"key": "36:47:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Behemoth Ranch - Charcoal Pine Resin"
+},
+{
+"key": "36:48:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Behemoth Ranch - Soul of a Nameless Soldier 2"
+},
+{
+"key": "36:49:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 36,
+"amount": 1,
+"item": "Soul of a Lost Undead",
+"quest": false,
+"name": "Behemoth Ranch - Soul of a Lost Undead"
+},
+{
+"key": "37:40:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Behemoth Ranch - Homeward Bonedust"
+},
+{
+"key": "37:41:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Behemoth Ranch - Fading Soul"
+},
+{
+"key": "37:42:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Behemoth Ranch - Medical Herb"
+},
+{
+"key": "37:43:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Behemoth Ranch - Green Soul"
+},
+{
+"key": "37:44:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 24,
+"amount": 1,
+"item": "Fairy Powder",
+"quest": false,
+"name": "Behemoth Ranch - Fairy Powder"
+},
+{
+"key": "37:45:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Behemoth Ranch - Large Soul of a Lost Undead 2"
+},
+{
+"key": "37:46:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Behemoth Ranch - Ore Shard"
+},
+{
+"key": "37:54:0:1",
+"area": "Behemoth Ranch",
+"kind": "armor",
+"id": 90,
+"amount": 1,
+"item": "Bloodbite Ring",
+"quest": false,
+"name": "Behemoth Ranch - Bloodbite Ring"
+},
+{
+"key": "37:55:2:23",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 321,
+"amount": 1,
+"item": "Sorcery [Omniblow]",
+"quest": true,
+"name": "Behemoth Ranch - Sorcery [Omniblow]"
+},
+{
+"key": "38:11:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Behemoth Ranch - Large Ore Shard"
+},
+{
+"key": "38:12:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Behemoth Ranch - Homeward Bonedust 2"
+},
+{
+"key": "38:13:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Behemoth Ranch - Soul of a Nameless Soldier 3"
+},
+{
+"key": "38:14:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Behemoth Ranch - Ore Shard 2"
+},
+{
+"key": "38:15:0:1",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 274,
+"amount": 1,
+"item": "Fairy-tale [Three Little Pigs]",
+"quest": false,
+"name": "Behemoth Ranch - Fairy-tale [Three Little Pigs]"
+},
+{
+"key": "40:25:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Ore Shard"
+},
+{
+"key": "40:26:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Jacob's Disused Mine - Magistone"
+},
+{
+"key": "40:27:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Jacob's Disused Mine - Rubbish"
+},
+{
+"key": "40:28:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "armor",
+"id": 83,
+"amount": 1,
+"item": "Flame Stoneplate Ring",
+"quest": false,
+"name": "Jacob's Disused Mine - Flame Stoneplate Ring"
+},
+{
+"key": "41:28:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 26,
+"amount": 2,
+"item": "Ore Shard",
+"quest": false,
+"name": "Jacob's Disused Mine - Ore Shard x2"
+},
+{
+"key": "41:29:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Jacob's Disused Mine - Charcoal Pine Resin"
+},
+{
+"key": "41:30:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Jacob's Disused Mine - Herb Flask"
+},
+{
+"key": "41:31:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Jacob's Disused Mine - Rubbish 2"
+},
+{
+"key": "41:32:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Ore Shard 2"
+},
+{
+"key": "41:33:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 13,
+"amount": 1,
+"item": "Yellow Soul",
+"quest": false,
+"name": "Jacob's Disused Mine - Yellow Soul"
+},
+{
+"key": "41:34:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Soul of a Nameless Soldier"
+},
+{
+"key": "41:40:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Jacob's Disused Mine - Candy"
+},
+{
+"key": "41:43:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 34,
+"amount": 3,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Jacob's Disused Mine - Gold Pine Resin x3"
+},
+{
+"key": "42:7:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 27,
+"amount": 3,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Ore Shard x3"
+},
+{
+"key": "42:10:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Jacob's Disused Mine - Green Soul"
+},
+{
+"key": "43:6:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Jacob's Disused Mine - Soul of a Proud Knight"
+},
+{
+"key": "43:7:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Jacob's Disused Mine - Magistone 2"
+},
+{
+"key": "43:8:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Jacob's Disused Mine - Fading Soul"
+},
+{
+"key": "43:9:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Soul of a Nameless Soldier"
+},
+{
+"key": "43:10:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Soul of a Nameless Soldier 2"
+},
+{
+"key": "43:11:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Soul of a Lost Undead"
+},
+{
+"key": "43:12:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Soul of a Nameless Soldier 2"
+},
+{
+"key": "43:16:1:19",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 26,
+"amount": 3,
+"item": "Ore Shard",
+"quest": true,
+"name": "Jacob's Disused Mine - Ore Shard x3"
+},
+{
+"key": "43:16:1:20",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 27,
+"amount": 3,
+"item": "Large Ore Shard",
+"quest": true,
+"name": "Jacob's Disused Mine - Large Ore Shard x3 2"
+},
+{
+"key": "43:16:1:21",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": true,
+"name": "Jacob's Disused Mine - Ore Chunk x3"
+},
+{
+"key": "43:16:1:61",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 26,
+"amount": 3,
+"item": "Ore Shard",
+"quest": true,
+"name": "Jacob's Disused Mine - Ore Shard x3 2"
+},
+{
+"key": "43:16:1:62",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 27,
+"amount": 3,
+"item": "Large Ore Shard",
+"quest": true,
+"name": "Jacob's Disused Mine - Large Ore Shard x3 3"
+},
+{
+"key": "43:16:1:63",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": true,
+"name": "Jacob's Disused Mine - Ore Chunk x3 2"
+},
+{
+"key": "43:16:1:64",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": true,
+"name": "Jacob's Disused Mine - Soul of a Nameless Soldier 3"
+},
+{
+"key": "45:13:0:1",
+"area": "Valley Checkpoint",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Valley Checkpoint - Ore Chunk"
+},
+{
+"key": "46:4:0:1",
+"area": "Valley Checkpoint",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Valley Checkpoint - Herb Flask M"
+},
+{
+"key": "47:1:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Helsa Desert - Candy"
+},
+{
+"key": "47:4:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 13,
+"amount": 1,
+"item": "Yellow Soul",
+"quest": false,
+"name": "Helsa Desert - Yellow Soul"
+},
+{
+"key": "48:6:1:8",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": true,
+"name": "Garden of Snow - Herb Flask M"
+},
+{
+"key": "48:8:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 15,
+"amount": 1,
+"item": "White Soul",
+"quest": false,
+"name": "Garden of Snow - White Soul"
+},
+{
+"key": "48:9:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Garden of Snow - Ore Chunk"
+},
+{
+"key": "48:11:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Garden of Snow - Ore Slab"
+},
+{
+"key": "48:13:0:8",
+"area": "Garden of Snow",
+"kind": "armor",
+"id": 118,
+"amount": 1,
+"item": "Mageslayer's Ring",
+"quest": false,
+"name": "Garden of Snow - Mageslayer's Ring"
+},
+{
+"key": "49:49:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Gold Pine Resin"
+},
+{
+"key": "49:50:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Helsa Desert - Soul of a Proud Knight"
+},
+{
+"key": "49:51:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Helsa Desert - Large Soul of a Proud Knight"
+},
+{
+"key": "49:52:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Helsa Desert - Homeward Bonedust"
+},
+{
+"key": "49:53:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Helsa Desert - Green Soul"
+},
+{
+"key": "49:54:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Helsa Desert - Green Soul 2"
+},
+{
+"key": "49:55:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Helsa Desert - Candy 2"
+},
+{
+"key": "49:56:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Helsa Desert - Master Key"
+},
+{
+"key": "49:57:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Helsa Desert - Ore Chunk"
+},
+{
+"key": "49:58:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 27,
+"amount": 2,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Helsa Desert - Large Ore Shard x2"
+},
+{
+"key": "49:59:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Gold Pine Resin 2"
+},
+{
+"key": "49:60:0:8",
+"area": "Helsa Desert",
+"kind": "armor",
+"id": 93,
+"amount": 1,
+"item": "Hornet Ring",
+"quest": false,
+"name": "Helsa Desert - Hornet Ring"
+},
+{
+"key": "49:62:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 20,
+"amount": 1,
+"item": "Invisibility Powder",
+"quest": false,
+"name": "Helsa Desert - Invisibility Powder"
+},
+{
+"key": "49:63:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Helsa Desert - Magistone"
+},
+{
+"key": "49:64:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Helsa Desert - Large Ore Shard"
+},
+{
+"key": "49:65:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Helsa Desert - Blue Soul"
+},
+{
+"key": "49:66:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 30,
+"amount": 3,
+"item": "Firebomb",
+"quest": false,
+"name": "Helsa Desert - Firebomb x3"
+},
+{
+"key": "49:68:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Helsa Desert - Rubbish"
+},
+{
+"key": "49:69:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 3,
+"amount": 3,
+"item": "Medical Herb",
+"quest": false,
+"name": "Helsa Desert - Medical Herb x3"
+},
+{
+"key": "49:70:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Helsa Desert - Soul of a Proud Knight 2"
+},
+{
+"key": "49:71:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin"
+},
+{
+"key": "49:72:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Helsa Desert - Herb Flask"
+},
+{
+"key": "49:73:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 14,
+"amount": 1,
+"item": "Ashen Soul",
+"quest": false,
+"name": "Helsa Desert - Ashen Soul"
+},
+{
+"key": "49:74:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 2"
+},
+{
+"key": "49:75:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 7,
+"amount": 1,
+"item": "Cure Herb",
+"quest": false,
+"name": "Helsa Desert - Cure Herb"
+},
+{
+"key": "49:76:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Helsa Desert - Soul of a Proud Knight 3"
+},
+{
+"key": "49:77:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Helsa Desert - Large Soul of a Nameless Soldier"
+},
+{
+"key": "49:78:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 3"
+},
+{
+"key": "49:79:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Gold Pine Resin 3"
+},
+{
+"key": "49:80:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 4"
+},
+{
+"key": "49:81:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 5"
+},
+{
+"key": "49:82:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Gold Pine Resin 4"
+},
+{
+"key": "49:83:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 6"
+},
+{
+"key": "49:84:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Helsa Desert - Soul of a Proud Knight 4"
+},
+{
+"key": "49:85:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Helsa Desert - Charcoal Pine Resin 7"
+},
+{
+"key": "49:86:0:8",
+"area": "Helsa Desert",
+"kind": "weapon",
+"id": 145,
+"amount": 1,
+"item": "Partisan",
+"quest": false,
+"name": "Helsa Desert - Partisan"
+},
+{
+"key": "49:87:0:1",
+"area": "Helsa Desert",
+"kind": "armor",
+"id": 84,
+"amount": 1,
+"item": "Thunder Stoneplate Ring",
+"quest": false,
+"name": "Helsa Desert - Thunder Stoneplate Ring"
+},
+{
+"key": "49:93:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 46,
+"amount": 1,
+"item": "Desert Rose",
+"quest": false,
+"name": "Helsa Desert - Desert Rose"
+},
+{
+"key": "49:102:0:1",
+"area": "Helsa Desert",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Helsa Desert - Soul of a Hero"
+},
+{
+"key": "52:17:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin"
+},
+{
+"key": "52:18:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin 2"
+},
+{
+"key": "52:19:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin 3"
+},
+{
+"key": "52:20:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin 4"
+},
+{
+"key": "52:21:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin 5"
+},
+{
+"key": "52:22:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Garden of Snow - Soul of a Brave Warrior"
+},
+{
+"key": "52:23:0:1",
+"area": "Garden of Snow",
+"kind": "armor",
+"id": 85,
+"amount": 1,
+"item": "Ice Stoneplate Ring",
+"quest": false,
+"name": "Garden of Snow - Ice Stoneplate Ring"
+},
+{
+"key": "52:24:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": false,
+"name": "Garden of Snow - Magistone"
+},
+{
+"key": "52:25:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Garden of Snow - Soul of a Brave Warrior 2"
+},
+{
+"key": "52:26:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Garden of Snow - Frigid Pine Resin 6"
+},
+{
+"key": "52:27:0:1",
+"area": "Garden of Snow",
+"kind": "armor",
+"id": 94,
+"amount": 1,
+"item": "Ring of the Wall",
+"quest": false,
+"name": "Garden of Snow - Ring of the Wall"
+},
+{
+"key": "52:31:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 339,
+"amount": 1,
+"item": "Sorcery [Frozen Magic Bullet]",
+"quest": false,
+"name": "Garden of Snow - Sorcery [Frozen Magic Bullet]"
+},
+{
+"key": "52:32:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Garden of Snow - Feather of Immortal Bird"
+},
+{
+"key": "53:4:0:8",
+"area": "Garden of Snow",
+"kind": "armor",
+"id": 86,
+"amount": 1,
+"item": "Spell Stoneplate Ring",
+"quest": false,
+"name": "Garden of Snow - Spell Stoneplate Ring"
+},
+{
+"key": "53:5:2:52",
+"area": "Garden of Snow",
+"kind": "armor",
+"id": 107,
+"amount": 1,
+"item": "Snow White's Favor",
+"quest": true,
+"name": "Garden of Snow - Snow White's Favor",
+"alt_keys": [
+"53:5:2:53"
+]
+},
+{
+"key": "53:5:4:13",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 300,
+"amount": 1,
+"item": "Fairy-tale [Snow White]",
+"quest": true,
+"name": "Garden of Snow - Fairy-tale [Snow White]"
+},
+{
+"key": "53:5:4:20",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 300,
+"amount": 1,
+"item": "Fairy-tale [Snow White]",
+"quest": true,
+"name": "Garden of Snow - Fairy-tale [Snow White] 2"
+},
+{
+"key": "54:15:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Garden of Snow - Rubbish"
+},
+{
+"key": "54:16:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Garden of Snow - Candy"
+},
+{
+"key": "54:17:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 31,
+"amount": 1,
+"item": "Dung Pie",
+"quest": false,
+"name": "Garden of Snow - Dung Pie"
+},
+{
+"key": "55:6:0:8",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Garden of Snow - Soul of a Hero"
+},
+{
+"key": "55:7:0:8",
+"area": "Garden of Snow",
+"kind": "weapon",
+"id": 222,
+"amount": 1,
+"item": "Andor Sword",
+"quest": false,
+"name": "Garden of Snow - Andor Sword"
+},
+{
+"key": "55:14:0:1",
+"area": "Garden of Snow",
+"kind": "item",
+"id": 52,
+"amount": 1,
+"item": "Invitation to Atlantica",
+"quest": false,
+"name": "Garden of Snow - Invitation to Atlantica"
+},
+{
+"key": "57:13:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Elixir Locked House - White and Sticky"
+},
+{
+"key": "57:14:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 20,
+"amount": 1,
+"item": "Invisibility Powder",
+"quest": false,
+"name": "Elixir Locked House - Invisibility Powder"
+},
+{
+"key": "57:15:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Elixir Locked House - Candy"
+},
+{
+"key": "57:16:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Elixir Locked House - Soul of a Nameless Soldier"
+},
+{
+"key": "57:17:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Elixir Locked House - Rubbish"
+},
+{
+"key": "57:18:0:1",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 5,
+"amount": 5,
+"item": "Bleed-stopper",
+"quest": false,
+"name": "Elixir Locked House - Bleed-stopper x5"
+},
+{
+"key": "57:19:0:8",
+"area": "Elixir Locked House",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Elixir Locked House - Herb Flask"
+},
+{
+"key": "60:6:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Gothel's Tower - Gold Pine Resin"
+},
+{
+"key": "60:7:0:8",
+"area": "Gothel's Tower",
+"kind": "armor",
+"id": 95,
+"amount": 1,
+"item": "Ring of Goddess",
+"quest": false,
+"name": "Gothel's Tower - Ring of Goddess"
+},
+{
+"key": "62:6:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Gothel's Tower - Soul of a Brave Warrior"
+},
+{
+"key": "62:7:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 23,
+"amount": 1,
+"item": "Magical Mirror",
+"quest": false,
+"name": "Gothel's Tower - Magical Mirror"
+},
+{
+"key": "62:8:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Gothel's Tower - Ore Chunk"
+},
+{
+"key": "62:9:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Gothel's Tower - Ore Chunk 2"
+},
+{
+"key": "62:10:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 27,
+"amount": 3,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Gothel's Tower - Large Ore Shard x3"
+},
+{
+"key": "62:11:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Gothel's Tower - Candy"
+},
+{
+"key": "62:17:0:1",
+"area": "Gothel's Tower",
+"kind": "armor",
+"id": 82,
+"amount": 1,
+"item": "Ring of Steel Protection",
+"quest": false,
+"name": "Gothel's Tower - Ring of Steel Protection"
+},
+{
+"key": "62:20:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Gothel's Tower - Black Soul"
+},
+{
+"key": "62:21:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 15,
+"amount": 1,
+"item": "White Soul",
+"quest": false,
+"name": "Gothel's Tower - White Soul"
+},
+{
+"key": "63:13:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Gothel's Tower - Homeward Bonedust"
+},
+{
+"key": "63:14:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Gothel's Tower - Soul of a Brave Warrior 2"
+},
+{
+"key": "63:15:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Gothel's Tower - Soul of a Hero"
+},
+{
+"key": "63:15:1:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": true,
+"name": "Gothel's Tower - Soul of a Hero 2"
+},
+{
+"key": "63:17:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Gothel's Tower - Large Soul of a Proud Knight"
+},
+{
+"key": "63:18:0:8",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 402,
+"amount": 1,
+"item": "Miracle [Providence]",
+"quest": false,
+"name": "Gothel's Tower - Miracle [Providence]"
+},
+{
+"key": "63:19:1:8",
+"area": "Gothel's Tower",
+"kind": "weapon",
+"id": 211,
+"amount": 1,
+"item": "Storm Ruler",
+"quest": true,
+"name": "Gothel's Tower - Storm Ruler"
+},
+{
+"key": "63:22:1:12",
+"area": "Gothel's Tower",
+"kind": "weapon",
+"id": 211,
+"amount": 1,
+"item": "Storm Ruler",
+"quest": true,
+"name": "Gothel's Tower - Storm Ruler 2"
+},
+{
+"key": "63:22:1:33",
+"area": "Gothel's Tower",
+"kind": "weapon",
+"id": 211,
+"amount": 1,
+"item": "Storm Ruler",
+"quest": true,
+"name": "Gothel's Tower - Storm Ruler 3"
+},
+{
+"key": "63:24:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Gothel's Tower - Feather of Immortal Bird"
+},
+{
+"key": "64:10:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Gothel's Tower - Herb Flask"
+},
+{
+"key": "64:11:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Gothel's Tower - Red Soul"
+},
+{
+"key": "64:12:0:8",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Gothel's Tower - Herb Flask 2"
+},
+{
+"key": "64:12:0:10",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Gothel's Tower - Herb Flask M"
+},
+{
+"key": "65:4:0:1",
+"area": "Gothel's Tower",
+"kind": "armor",
+"id": 98,
+"amount": 1,
+"item": "Wind God's Ring",
+"quest": false,
+"name": "Gothel's Tower - Wind God's Ring"
+},
+{
+"key": "65:5:0:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Gothel's Tower - Herb Flask M 2"
+},
+{
+"key": "66:5:2:41",
+"area": "Gothel's Tower",
+"kind": "armor",
+"id": 108,
+"amount": 1,
+"item": "Rapunzel's Favor",
+"quest": true,
+"name": "Gothel's Tower - Rapunzel's Favor"
+},
+{
+"key": "66:5:6:1",
+"area": "Gothel's Tower",
+"kind": "item",
+"id": 297,
+"amount": 1,
+"item": "Fairy-tale [Rapunzel]",
+"quest": true,
+"name": "Gothel's Tower - Fairy-tale [Rapunzel]"
+},
+{
+"key": "67:25:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Graveyard Town Elixir - Large Soul of a Nameless Soldier"
+},
+{
+"key": "67:26:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 37,
+"amount": 1,
+"item": "Large Soul of a Lost Undead",
+"quest": false,
+"name": "Graveyard Town Elixir - Large Soul of a Lost Undead"
+},
+{
+"key": "67:28:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Graveyard Town Elixir - Soul of a Proud Knight"
+},
+{
+"key": "67:29:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Graveyard Town Elixir - Soul of a Proud Knight 2"
+},
+{
+"key": "67:30:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Graveyard Town Elixir - Large Ore Shard"
+},
+{
+"key": "67:32:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Graveyard Town Elixir - Master Key"
+},
+{
+"key": "67:50:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Graveyard Town Elixir - Large Soul of a Nameless Soldier 2"
+},
+{
+"key": "67:51:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Graveyard Town Elixir - Soul of a Brave Warrior"
+},
+{
+"key": "67:52:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Graveyard Town Elixir - Ore Chunk"
+},
+{
+"key": "67:53:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Graveyard Town Elixir - Large Ore Shard 2"
+},
+{
+"key": "67:54:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Graveyard Town Elixir - Frigid Pine Resin"
+},
+{
+"key": "67:58:0:8",
+"area": "Graveyard Town Elixir",
+"kind": "weapon",
+"id": 178,
+"amount": 1,
+"item": "Hunter's Bow",
+"quest": false,
+"name": "Graveyard Town Elixir - Hunter's Bow"
+},
+{
+"key": "67:59:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "armor",
+"id": 91,
+"amount": 1,
+"item": "Ring of the Edge",
+"quest": false,
+"name": "Graveyard Town Elixir - Ring of the Edge"
+},
+{
+"key": "67:63:0:8",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 22,
+"amount": 1,
+"item": "Magistone",
+"quest": true,
+"name": "Graveyard Town Elixir - Magistone"
+},
+{
+"key": "67:67:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 334,
+"amount": 1,
+"item": "Miracle [Preraise]",
+"quest": false,
+"name": "Graveyard Town Elixir - Miracle [Preraise]"
+},
+{
+"key": "67:72:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Graveyard Town Elixir - Feather of Immortal Bird"
+},
+{
+"key": "67:73:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Graveyard Town Elixir - Master Key 2"
+},
+{
+"key": "68:64:0:1",
+"area": "Graveyard Town Elixir",
+"kind": "item",
+"id": 319,
+"amount": 1,
+"item": "Sorcery [Soul Radiance]",
+"quest": false,
+"name": "Graveyard Town Elixir - Sorcery [Soul Radiance]"
+},
+{
+"key": "69:6:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Soul of a Proud Knight"
+},
+{
+"key": "69:7:0:1",
+"area": "Skeleton Maze",
+"kind": "armor",
+"id": 98,
+"amount": 1,
+"item": "Wind God's Ring",
+"quest": false,
+"name": "Skeleton Maze - Wind God's Ring"
+},
+{
+"key": "69:8:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Skeleton Maze - Feather of Immortal Bird"
+},
+{
+"key": "70:18:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Soul of a Proud Knight 2"
+},
+{
+"key": "70:19:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Skeleton Maze - Master Key"
+},
+{
+"key": "70:20:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 10,
+"amount": 1,
+"item": "Purple Soul",
+"quest": false,
+"name": "Skeleton Maze - Purple Soul"
+},
+{
+"key": "70:21:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Skeleton Maze - Blue Soul"
+},
+{
+"key": "70:22:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 27,
+"amount": 3,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Skeleton Maze - Large Ore Shard x3"
+},
+{
+"key": "70:23:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Large Soul of a Proud Knight"
+},
+{
+"key": "70:24:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Skeleton Maze - Homeward Bonedust"
+},
+{
+"key": "70:25:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 7,
+"amount": 1,
+"item": "Cure Herb",
+"quest": false,
+"name": "Skeleton Maze - Cure Herb"
+},
+{
+"key": "70:26:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Skeleton Maze - Candy"
+},
+{
+"key": "70:27:0:1",
+"area": "Skeleton Maze",
+"kind": "armor",
+"id": 94,
+"amount": 1,
+"item": "Ring of the Wall",
+"quest": false,
+"name": "Skeleton Maze - Ring of the Wall"
+},
+{
+"key": "71:4:0:1",
+"area": "Abandoned Beach",
+"kind": "armor",
+"id": 86,
+"amount": 1,
+"item": "Spell Stoneplate Ring",
+"quest": false,
+"name": "Abandoned Beach - Spell Stoneplate Ring"
+},
+{
+"key": "72:16:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Atlantica - Soul of a Brave Warrior"
+},
+{
+"key": "72:17:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Atlantica - Soul of a Brave Warrior 2"
+},
+{
+"key": "72:18:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Atlantica - Ore Chunk"
+},
+{
+"key": "72:19:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Atlantica - Soul of a Brave Warrior 3"
+},
+{
+"key": "72:20:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Atlantica - Divine Blessing"
+},
+{
+"key": "72:21:0:1",
+"area": "Atlantica",
+"kind": "armor",
+"id": 92,
+"amount": 1,
+"item": "Safeguarding Ring",
+"quest": false,
+"name": "Atlantica - Safeguarding Ring"
+},
+{
+"key": "72:22:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 28,
+"amount": 2,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Atlantica - Ore Chunk x2"
+},
+{
+"key": "72:23:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Atlantica - Large Soul of a Brave Warrior"
+},
+{
+"key": "72:24:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Atlantica - Match"
+},
+{
+"key": "72:25:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Atlantica - Homeward Bonedust"
+},
+{
+"key": "72:26:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Atlantica - Blue Soul"
+},
+{
+"key": "72:27:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Atlantica - Blue Soul 2"
+},
+{
+"key": "72:28:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Atlantica - Blue Soul 3"
+},
+{
+"key": "72:29:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Atlantica - Blue Soul 4"
+},
+{
+"key": "72:30:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Atlantica - Blue Soul 5"
+},
+{
+"key": "72:46:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Atlantica - Feather of Immortal Bird"
+},
+{
+"key": "74:4:0:1",
+"area": "Atlantica",
+"kind": "armor",
+"id": 86,
+"amount": 1,
+"item": "Spell Stoneplate Ring",
+"quest": false,
+"name": "Atlantica - Spell Stoneplate Ring"
+},
+{
+"key": "75:11:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Soul of a Proud Knight 3"
+},
+{
+"key": "75:12:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Soul of a Proud Knight 4"
+},
+{
+"key": "75:13:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Skeleton Maze - Soul of a Proud Knight 5"
+},
+{
+"key": "75:14:0:8",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Skeleton Maze - Herb Flask M"
+},
+{
+"key": "75:20:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Skeleton Maze - Blue Soul 2"
+},
+{
+"key": "75:21:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Skeleton Maze - Green Soul"
+},
+{
+"key": "76:43:0:45",
+"area": "Atlantica",
+"kind": "armor",
+"id": 106,
+"amount": 1,
+"item": "Little Mermaid's Favor",
+"quest": true,
+"name": "Atlantica - Little Mermaid's Favor"
+},
+{
+"key": "76:43:1:44",
+"area": "Atlantica",
+"kind": "armor",
+"id": 106,
+"amount": 1,
+"item": "Little Mermaid's Favor",
+"quest": true,
+"name": "Atlantica - Little Mermaid's Favor 2"
+},
+{
+"key": "77:5:0:1",
+"area": "Hotel Poseidon",
+"kind": "item",
+"id": 331,
+"amount": 1,
+"item": "Sorcery [Reflect Magic]",
+"quest": false,
+"name": "Hotel Poseidon - Sorcery [Reflect Magic]"
+},
+{
+"key": "78:7:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Atlantica - Soul of a Brave Warrior 4"
+},
+{
+"key": "78:8:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Atlantica - Herb Flask"
+},
+{
+"key": "78:9:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Atlantica - Divine Blessing 2"
+},
+{
+"key": "78:10:0:1",
+"area": "Atlantica",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Atlantica - Ore Slab"
+},
+{
+"key": "79:12:0:1",
+"area": "Wilhelm Bridge",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Wilhelm Bridge - Herb Flask"
+},
+{
+"key": "81:9:0:1",
+"area": "Secret Garden",
+"kind": "item",
+"id": 289,
+"amount": 1,
+"item": "Fairy-tale [Tortoise and Hare]",
+"quest": true,
+"name": "Secret Garden - Fairy-tale [Tortoise and Hare]"
+},
+{
+"key": "82:19:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Tainted Bog - Soul of a Proud Knight"
+},
+{
+"key": "82:20:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Tainted Bog - Large Soul of a Proud Knight"
+},
+{
+"key": "82:21:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Tainted Bog - Large Soul of a Proud Knight 2"
+},
+{
+"key": "82:22:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Tainted Bog - Soul of a Brave Warrior"
+},
+{
+"key": "82:23:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Tainted Bog - Soul of a Proud Knight 2"
+},
+{
+"key": "82:24:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Tainted Bog - Large Soul of a Brave Warrior"
+},
+{
+"key": "82:25:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 28,
+"amount": 2,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Tainted Bog - Ore Chunk x2"
+},
+{
+"key": "82:26:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 28,
+"amount": 2,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Tainted Bog - Ore Chunk x2 2"
+},
+{
+"key": "82:27:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Tainted Bog - Soul of a Brave Warrior 2"
+},
+{
+"key": "82:28:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 4,
+"amount": 3,
+"item": "Antidote Herb",
+"quest": false,
+"name": "Tainted Bog - Antidote Herb x3"
+},
+{
+"key": "82:29:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 40,
+"amount": 1,
+"item": "Soul of a Proud Knight",
+"quest": false,
+"name": "Tainted Bog - Soul of a Proud Knight 3"
+},
+{
+"key": "82:30:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 31,
+"amount": 5,
+"item": "Dung Pie",
+"quest": false,
+"name": "Tainted Bog - Dung Pie x5"
+},
+{
+"key": "82:31:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Tainted Bog - Soul of a Brave Warrior 3"
+},
+{
+"key": "82:38:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Tainted Bog - Candy"
+},
+{
+"key": "82:39:0:8",
+"area": "Tainted Bog",
+"kind": "weapon",
+"id": 156,
+"amount": 1,
+"item": "Morgenstern",
+"quest": false,
+"name": "Tainted Bog - Morgenstern"
+},
+{
+"key": "82:40:0:1",
+"area": "Tainted Bog",
+"kind": "armor",
+"id": 99,
+"amount": 1,
+"item": "Sorcery Ring",
+"quest": false,
+"name": "Tainted Bog - Sorcery Ring"
+},
+{
+"key": "82:44:1:39",
+"area": "Tainted Bog",
+"kind": "armor",
+"id": 105,
+"amount": 1,
+"item": "Princess Frog's Favor",
+"quest": true,
+"name": "Tainted Bog - Princess Frog's Favor"
+},
+{
+"key": "82:61:0:28",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 4,
+"amount": 10,
+"item": "Antidote Herb",
+"quest": true,
+"name": "Tainted Bog - Antidote Herb x10"
+},
+{
+"key": "82:63:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 340,
+"amount": 1,
+"item": "Sorcery [Conflagration]",
+"quest": false,
+"name": "Tainted Bog - Sorcery [Conflagration]"
+},
+{
+"key": "82:69:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 342,
+"amount": 1,
+"item": "Sorcery [Power Within]",
+"quest": false,
+"name": "Tainted Bog - Sorcery [Power Within]"
+},
+{
+"key": "82:70:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Tainted Bog - Soul of a Hero"
+},
+{
+"key": "82:74:0:1",
+"area": "Tainted Bog",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Tainted Bog - Feather of Immortal Bird"
+},
+{
+"key": "83:18:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Wonderland - Candy"
+},
+{
+"key": "83:19:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Wonderland - Soul of a Great Hero"
+},
+{
+"key": "83:20:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 47,
+"amount": 1,
+"item": "Master Key",
+"quest": false,
+"name": "Wonderland - Master Key"
+},
+{
+"key": "83:21:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match"
+},
+{
+"key": "83:22:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Wonderland - Ore Chunk x3"
+},
+{
+"key": "83:23:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Wonderland - Ore Chunk x3 2"
+},
+{
+"key": "83:24:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Wonderland - Soul of a Hero"
+},
+{
+"key": "83:25:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Wonderland - Herb Flask"
+},
+{
+"key": "83:26:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 2"
+},
+{
+"key": "83:27:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 3"
+},
+{
+"key": "83:28:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 4"
+},
+{
+"key": "83:29:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 5"
+},
+{
+"key": "83:30:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 6"
+},
+{
+"key": "83:31:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 7"
+},
+{
+"key": "83:32:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 8"
+},
+{
+"key": "83:33:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 9"
+},
+{
+"key": "83:34:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 10"
+},
+{
+"key": "83:35:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Wonderland - Match 11"
+},
+{
+"key": "83:45:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Wonderland - Soul of a Great Hero 2"
+},
+{
+"key": "83:47:0:1",
+"area": "Wonderland",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Wonderland - Feather of Immortal Bird"
+},
+{
+"key": "84:5:0:1",
+"area": "Hotel Poseidon Locked Room",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Hotel Poseidon Locked Room - White and Sticky"
+},
+{
+"key": "84:6:0:1",
+"area": "Hotel Poseidon Locked Room",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Hotel Poseidon Locked Room - Candy"
+},
+{
+"key": "84:7:0:1",
+"area": "Hotel Poseidon Locked Room",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Hotel Poseidon Locked Room - Gold Pine Resin"
+},
+{
+"key": "87:2:0:8",
+"area": "Lost Empire",
+"kind": "weapon",
+"id": 134,
+"amount": 1,
+"item": "Deviledge",
+"quest": false,
+"name": "Lost Empire - Deviledge"
+},
+{
+"key": "87:3:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Lost Empire - Soul of a Great Hero"
+},
+{
+"key": "87:11:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Lost Empire - Divine Blessing"
+},
+{
+"key": "87:18:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 341,
+"amount": 1,
+"item": "Sorcery [Ruinous Storm]",
+"quest": false,
+"name": "Lost Empire - Sorcery [Ruinous Storm]"
+},
+{
+"key": "88:72:0:1",
+"area": "Lost Empire",
+"kind": "armor",
+"id": 101,
+"amount": 1,
+"item": "Clear Mind Ring",
+"quest": false,
+"name": "Lost Empire - Clear Mind Ring"
+},
+{
+"key": "88:74:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Lost Empire - Ore Chunk x3"
+},
+{
+"key": "88:80:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 44,
+"amount": 1,
+"item": "Soul of a Hero",
+"quest": false,
+"name": "Lost Empire - Soul of a Hero"
+},
+{
+"key": "88:81:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Lost Empire - Ore Chunk"
+},
+{
+"key": "88:82:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Lost Empire - Large Soul of a Brave Warrior"
+},
+{
+"key": "88:83:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Lost Empire - Large Soul of a Brave Warrior 2"
+},
+{
+"key": "88:84:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 41,
+"amount": 1,
+"item": "Large Soul of a Proud Knight",
+"quest": false,
+"name": "Lost Empire - Large Soul of a Proud Knight"
+},
+{
+"key": "88:85:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Lost Empire - Soul of a Brave Warrior"
+},
+{
+"key": "88:86:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 294,
+"amount": 1,
+"item": "Fairy-tale [Golden Goose]",
+"quest": true,
+"name": "Lost Empire - Fairy-tale [Golden Goose]"
+},
+{
+"key": "88:92:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 288,
+"amount": 1,
+"item": "Fairy-tale [Beauty and Beast]",
+"quest": true,
+"name": "Lost Empire - Fairy-tale [Beauty and Beast]"
+},
+{
+"key": "91:21:0:19",
+"area": "Lost Empire",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": true,
+"name": "Lost Empire - Ore Slab"
+},
+{
+"key": "93:7:1:31",
+"area": "Lost Empire",
+"kind": "armor",
+"id": 128,
+"amount": 1,
+"item": "Cinderella's Favor",
+"quest": true,
+"name": "Lost Empire - Cinderella's Favor"
+},
+{
+"key": "95:80:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Lost Empire - Ore Slab 2"
+},
+{
+"key": "95:81:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Lost Empire - Soul of a Brave Warrior 2"
+},
+{
+"key": "95:82:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Lost Empire - Black Soul"
+},
+{
+"key": "95:83:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Lost Empire - Candy"
+},
+{
+"key": "95:84:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 42,
+"amount": 1,
+"item": "Soul of a Brave Warrior",
+"quest": false,
+"name": "Lost Empire - Soul of a Brave Warrior 3"
+},
+{
+"key": "95:102:0:56",
+"area": "Lost Empire",
+"kind": "item",
+"id": 288,
+"amount": 1,
+"item": "Fairy-tale [Beauty and Beast]",
+"quest": true,
+"name": "Lost Empire - Fairy-tale [Beauty and Beast] 2",
+"alt_keys": [
+"95:102:0:59"
+]
+},
+{
+"key": "95:111:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Lost Empire - Feather of Immortal Bird"
+},
+{
+"key": "96:17:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Lost Empire - Ore Slab 3"
+},
+{
+"key": "96:18:0:1",
+"area": "Lost Empire",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Lost Empire - Herb Flask"
+},
+{
+"key": "101:6:5:21",
+"area": "Alice's Library",
+"kind": "item",
+"id": 179,
+"amount": 1,
+"item": "Alice's Ribbon",
+"quest": true,
+"name": "Alice's Library - Alice's Ribbon"
+},
+{
+"key": "101:6:5:22",
+"area": "Alice's Library",
+"kind": "item",
+"id": 291,
+"amount": 1,
+"item": "Fairy-tale [Alice in Wonderland]",
+"quest": true,
+"name": "Alice's Library - Fairy-tale [Alice in Wonderland]"
+},
+{
+"key": "102:11:0:8",
+"area": "Behemoth Ranch",
+"kind": "item",
+"id": 401,
+"amount": 1,
+"item": "Sorcery [Hidden Body]",
+"quest": false,
+"name": "Behemoth Ranch - Sorcery [Hidden Body]"
+},
+{
+"key": "103:13:0:1",
+"area": "Valley Checkpoint",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Valley Checkpoint - Ore Chunk 2"
+},
+{
+"key": "108:2:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Soul of a Nameless Soldier 3"
+},
+{
+"key": "108:3:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 26,
+"amount": 3,
+"item": "Ore Shard",
+"quest": false,
+"name": "Jacob's Disused Mine - Ore Shard x3 3"
+},
+{
+"key": "108:5:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 338,
+"amount": 1,
+"item": "Sorcery [Dark Side Moon]",
+"quest": false,
+"name": "Jacob's Disused Mine - Sorcery [Dark Side Moon]"
+},
+{
+"key": "108:32:0:1",
+"area": "Jacob's Disused Mine",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Jacob's Disused Mine - Large Soul of a Nameless Soldier 4"
+},
+{
+"key": "114:14:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Holy Forest - White and Sticky"
+},
+{
+"key": "114:15:0:1",
+"area": "Holy Forest",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Holy Forest - White and Sticky 2"
+},
+{
+"key": "114:18:0:27",
+"area": "Holy Forest",
+"kind": "item",
+"id": 292,
+"amount": 1,
+"item": "Fairy-tale [Wizard of Oz]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Wizard of Oz]"
+},
+{
+"key": "114:20:0:27",
+"area": "Holy Forest",
+"kind": "item",
+"id": 290,
+"amount": 1,
+"item": "Fairy-tale [Little Match Girl]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Little Match Girl]"
+},
+{
+"key": "114:29:0:28",
+"area": "Holy Forest",
+"kind": "item",
+"id": 294,
+"amount": 1,
+"item": "Fairy-tale [Golden Goose]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Golden Goose]"
+},
+{
+"key": "114:30:0:30",
+"area": "Holy Forest",
+"kind": "item",
+"id": 302,
+"amount": 1,
+"item": "Fairy-tale [Queen Elisabeth]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Queen Elisabeth]"
+},
+{
+"key": "114:31:0:26",
+"area": "Holy Forest",
+"kind": "item",
+"id": 295,
+"amount": 1,
+"item": "Fairy-tale [Saint of Alexandria]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Saint of Alexandria] 2"
+},
+{
+"key": "114:32:0:28",
+"area": "Holy Forest",
+"kind": "item",
+"id": 293,
+"amount": 1,
+"item": "Fairy-tale [Jeanne d'Arc]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Jeanne d'Arc]"
+},
+{
+"key": "114:35:0:28",
+"area": "Holy Forest",
+"kind": "item",
+"id": 288,
+"amount": 1,
+"item": "Fairy-tale [Beauty and Beast]",
+"quest": true,
+"name": "Holy Forest - Fairy-tale [Beauty and Beast]"
+},
+{
+"key": "114:36:4:0",
+"area": "Holy Forest",
+"kind": "item",
+"id": 294,
+"amount": 1,
+"item": "Fairy-tale [Golden Goose]",
+"quest": false,
+"name": "Holy Forest - Fairy-tale [Golden Goose] 2"
+},
+{
+"key": "114:40:0:32",
+"area": "Holy Forest",
+"kind": "armor",
+"id": 133,
+"amount": 1,
+"item": "Harlot's Ring",
+"quest": true,
+"name": "Holy Forest - Harlot's Ring"
+},
+{
+"key": "115:13:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Dust Sea - Frigid Pine Resin"
+},
+{
+"key": "115:14:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Dust Sea - Blue Soul"
+},
+{
+"key": "115:15:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 38,
+"amount": 1,
+"item": "Soul of a Nameless Soldier",
+"quest": false,
+"name": "Dust Sea - Soul of a Nameless Soldier"
+},
+{
+"key": "115:16:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Dust Sea - Rubbish"
+},
+{
+"key": "115:17:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 10,
+"amount": 1,
+"item": "Purple Soul",
+"quest": false,
+"name": "Dust Sea - Purple Soul"
+},
+{
+"key": "115:18:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Dust Sea - Feather of Immortal Bird"
+},
+{
+"key": "115:19:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 182,
+"amount": 1,
+"item": "Fairy's Wing",
+"quest": false,
+"name": "Dust Sea - Fairy's Wing"
+},
+{
+"key": "116:19:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 27,
+"amount": 1,
+"item": "Large Ore Shard",
+"quest": false,
+"name": "Dust Sea - Large Ore Shard"
+},
+{
+"key": "116:20:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 18,
+"amount": 1,
+"item": "Homeward Bonedust",
+"quest": false,
+"name": "Dust Sea - Homeward Bonedust"
+},
+{
+"key": "116:21:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 26,
+"amount": 1,
+"item": "Ore Shard",
+"quest": false,
+"name": "Dust Sea - Ore Shard"
+},
+{
+"key": "116:22:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Dust Sea - Charcoal Pine Resin"
+},
+{
+"key": "116:23:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 7,
+"amount": 1,
+"item": "Cure Herb",
+"quest": false,
+"name": "Dust Sea - Cure Herb"
+},
+{
+"key": "116:24:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Dust Sea - Large Soul of a Nameless Soldier"
+},
+{
+"key": "116:25:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Dust Sea - Large Soul of a Nameless Soldier 2"
+},
+{
+"key": "116:26:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 49,
+"amount": 1,
+"item": "Candy",
+"quest": false,
+"name": "Dust Sea - Candy"
+},
+{
+"key": "116:27:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 21,
+"amount": 1,
+"item": "Rubbish",
+"quest": false,
+"name": "Dust Sea - Rubbish 2"
+},
+{
+"key": "116:28:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Dust Sea - Green Soul"
+},
+{
+"key": "116:29:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Dust Sea - Red Soul"
+},
+{
+"key": "117:9:0:1",
+"area": "Dust Sea",
+"kind": "item",
+"id": 28,
+"amount": 1,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Dust Sea - Ore Chunk"
+},
+{
+"key": "118:2:0:8",
+"area": "Dust Sea",
+"kind": "armor",
+"id": 103,
+"amount": 1,
+"item": "Lighthouse Ring",
+"quest": false,
+"name": "Dust Sea - Lighthouse Ring"
+},
+{
+"key": "119:7:2:39",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 293,
+"amount": 1,
+"item": "Fairy-tale [Jeanne d'Arc]",
+"quest": true,
+"name": "Skeleton Maze - Fairy-tale [Jeanne d'Arc]"
+},
+{
+"key": "119:7:3:106",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 293,
+"amount": 1,
+"item": "Fairy-tale [Jeanne d'Arc]",
+"quest": true,
+"name": "Skeleton Maze - Fairy-tale [Jeanne d'Arc] 2"
+},
+{
+"key": "119:7:3:165",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 293,
+"amount": 1,
+"item": "Fairy-tale [Jeanne d'Arc]",
+"quest": true,
+"name": "Skeleton Maze - Fairy-tale [Jeanne d'Arc] 3"
+},
+{
+"key": "119:8:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 15,
+"amount": 1,
+"item": "White Soul",
+"quest": false,
+"name": "Skeleton Maze - White Soul"
+},
+{
+"key": "119:9:0:1",
+"area": "Skeleton Maze",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Skeleton Maze - Blue Soul 3"
+},
+{
+"key": "130:77:0:8",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 111,
+"amount": 1,
+"item": "Miracle Ring",
+"quest": false,
+"name": "Kun-Yan - Miracle Ring"
+},
+{
+"key": "130:78:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Kun-Yan - Soul of a Great Hero 2"
+},
+{
+"key": "130:79:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Kun-Yan - Ore Chunk x3"
+},
+{
+"key": "130:80:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Kun-Yan - Herb Flask M"
+},
+{
+"key": "130:81:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 32,
+"amount": 1,
+"item": "Charcoal Pine Resin",
+"quest": false,
+"name": "Kun-Yan - Charcoal Pine Resin"
+},
+{
+"key": "130:81:0:2",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Kun-Yan - Frigid Pine Resin"
+},
+{
+"key": "130:81:0:3",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 34,
+"amount": 1,
+"item": "Gold Pine Resin",
+"quest": false,
+"name": "Kun-Yan - Gold Pine Resin"
+},
+{
+"key": "130:82:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 6"
+},
+{
+"key": "130:83:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 7"
+},
+{
+"key": "130:84:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 8"
+},
+{
+"key": "130:85:0:1",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Kun-Yan - Soul of Sinner 9"
+},
+{
+"key": "131:16:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Nameless Soldier 3"
+},
+{
+"key": "133:7:4:39",
+"area": "Kun-Yan",
+"kind": "item",
+"id": 8,
+"amount": 20,
+"item": "Divine Blessing",
+"quest": true,
+"name": "Kun-Yan - Divine Blessing x20",
+"alt_keys": [
+"133:7:4:42"
+]
+},
+{
+"key": "133:7:7:37",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 134,
+"amount": 1,
+"item": "Exorcist's Ring",
+"quest": true,
+"name": "Kun-Yan - Exorcist's Ring",
+"alt_keys": [
+"133:7:7:40"
+]
+},
+{
+"key": "133:7:10:36",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 135,
+"amount": 1,
+"item": "Ring of Unfathomable",
+"quest": true,
+"name": "Kun-Yan - Ring of Unfathomable",
+"alt_keys": [
+"133:7:10:39"
+]
+},
+{
+"key": "133:7:13:62",
+"area": "Kun-Yan",
+"kind": "armor",
+"id": 113,
+"amount": 1,
+"item": "Baphomet's Favor",
+"quest": true,
+"name": "Kun-Yan - Baphomet's Favor",
+"alt_keys": [
+"133:7:13:65"
+]
+},
+{
+"key": "134:76:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 20,
+"amount": 1,
+"item": "Invisibility Powder",
+"quest": false,
+"name": "Old Rotten Burg - Invisibility Powder"
+},
+{
+"key": "134:79:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 29,
+"amount": 1,
+"item": "Ore Slab",
+"quest": false,
+"name": "Old Rotten Burg - Ore Slab"
+},
+{
+"key": "134:80:0:1",
+"area": "Old Rotten Burg",
+"kind": "armor",
+"id": 122,
+"amount": 1,
+"item": "Ring of White Crow",
+"quest": false,
+"name": "Old Rotten Burg - Ring of White Crow"
+},
+{
+"key": "134:82:0:8",
+"area": "Old Rotten Burg",
+"kind": "weapon",
+"id": 233,
+"amount": 1,
+"item": "Bunker Shield",
+"quest": false,
+"name": "Old Rotten Burg - Bunker Shield"
+},
+{
+"key": "134:83:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 1,
+"amount": 1,
+"item": "Herb Flask",
+"quest": false,
+"name": "Old Rotten Burg - Herb Flask"
+},
+{
+"key": "134:84:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Old Rotten Burg - Large Soul of a Brave Warrior"
+},
+{
+"key": "134:85:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Old Rotten Burg - White and Sticky"
+},
+{
+"key": "134:86:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Old Rotten Burg - White and Sticky 2"
+},
+{
+"key": "134:87:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 48,
+"amount": 1,
+"item": "White and Sticky",
+"quest": false,
+"name": "Old Rotten Burg - White and Sticky 3"
+},
+{
+"key": "134:88:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Old Rotten Burg - Succubus Fluids"
+},
+{
+"key": "134:89:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Old Rotten Burg - Succubus Fluids 2"
+},
+{
+"key": "134:90:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Old Rotten Burg - Succubus Fluids 3"
+},
+{
+"key": "134:91:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Old Rotten Burg - Succubus Fluids 4"
+},
+{
+"key": "134:92:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Old Rotten Burg - Succubus Fluids 5"
+},
+{
+"key": "134:93:0:1",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 54,
+"amount": 1,
+"item": "Match",
+"quest": false,
+"name": "Old Rotten Burg - Match"
+},
+{
+"key": "134:94:0:1",
+"area": "Old Rotten Burg",
+"kind": "armor",
+"id": 116,
+"amount": 1,
+"item": "Honeybee Ring",
+"quest": false,
+"name": "Old Rotten Burg - Honeybee Ring"
+},
+{
+"key": "134:97:0:0",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 343,
+"amount": 1,
+"item": "Sorcery [Heavy Soul Arrow]",
+"quest": false,
+"name": "Old Rotten Burg - Sorcery [Heavy Soul Arrow]"
+},
+{
+"key": "134:99:0:8",
+"area": "Old Rotten Burg",
+"kind": "item",
+"id": 403,
+"amount": 1,
+"item": "Miracle [Raise II]",
+"quest": false,
+"name": "Old Rotten Burg - Miracle [Raise II]"
+},
+{
+"key": "136:74:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Forest of Sabbath - Feather of Immortal Bird"
+},
+{
+"key": "136:75:0:1",
+"area": "Forest of Sabbath",
+"kind": "armor",
+"id": 126,
+"amount": 1,
+"item": "Puppet's Ring",
+"quest": false,
+"name": "Forest of Sabbath - Puppet's Ring"
+},
+{
+"key": "136:76:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 31,
+"amount": 1,
+"item": "Dung Pie",
+"quest": false,
+"name": "Forest of Sabbath - Dung Pie"
+},
+{
+"key": "136:77:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 183,
+"amount": 1,
+"item": "Feather of Immortal Bird",
+"quest": false,
+"name": "Forest of Sabbath - Feather of Immortal Bird 2"
+},
+{
+"key": "136:78:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 8,
+"amount": 1,
+"item": "Divine Blessing",
+"quest": false,
+"name": "Forest of Sabbath - Divine Blessing"
+},
+{
+"key": "136:79:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Forest of Sabbath - Soul of Sinner"
+},
+{
+"key": "136:80:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 28,
+"amount": 3,
+"item": "Ore Chunk",
+"quest": false,
+"name": "Forest of Sabbath - Ore Chunk x3"
+},
+{
+"key": "136:81:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Forest of Sabbath - Soul of Sinner 2"
+},
+{
+"key": "136:82:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 45,
+"amount": 1,
+"item": "Soul of a Great Hero",
+"quest": false,
+"name": "Forest of Sabbath - Soul of a Great Hero"
+},
+{
+"key": "136:83:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 2,
+"amount": 1,
+"item": "Herb Flask M",
+"quest": false,
+"name": "Forest of Sabbath - Herb Flask M"
+},
+{
+"key": "136:84:0:1",
+"area": "Forest of Sabbath",
+"kind": "armor",
+"id": 127,
+"amount": 1,
+"item": "Ring of the Strong",
+"quest": false,
+"name": "Forest of Sabbath - Ring of the Strong"
+},
+{
+"key": "136:85:0:1",
+"area": "Forest of Sabbath",
+"kind": "armor",
+"id": 129,
+"amount": 1,
+"item": "Ring of Heaven",
+"quest": false,
+"name": "Forest of Sabbath - Ring of Heaven"
+},
+{
+"key": "136:86:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 43,
+"amount": 1,
+"item": "Large Soul of a Brave Warrior",
+"quest": false,
+"name": "Forest of Sabbath - Large Soul of a Brave Warrior"
+},
+{
+"key": "136:87:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Forest of Sabbath - Black Soul"
+},
+{
+"key": "136:88:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Forest of Sabbath - Black Soul 2"
+},
+{
+"key": "136:89:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Forest of Sabbath - Black Soul 3"
+},
+{
+"key": "136:90:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 16,
+"amount": 1,
+"item": "Black Soul",
+"quest": false,
+"name": "Forest of Sabbath - Black Soul 4"
+},
+{
+"key": "136:91:0:1",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 19,
+"amount": 1,
+"item": "Soul of Sinner",
+"quest": false,
+"name": "Forest of Sabbath - Soul of Sinner 3"
+},
+{
+"key": "136:93:0:0",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Forest of Sabbath - Succubus Fluids"
+},
+{
+"key": "137:7:0:0",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 400,
+"amount": 1,
+"item": "Sorcery [Heavy Soul Discharge]",
+"quest": false,
+"name": "Forest of Sabbath - Sorcery [Heavy Soul Discharge]"
+},
+{
+"key": "137:8:0:0",
+"area": "Forest of Sabbath",
+"kind": "item",
+"id": 49,
+"amount": 10,
+"item": "Candy",
+"quest": false,
+"name": "Forest of Sabbath - Candy x10"
+},
+{
+"key": "137:9:0:0",
+"area": "Forest of Sabbath",
+"kind": "armor",
+"id": 130,
+"amount": 1,
+"item": "Ring of the Good Witch",
+"quest": false,
+"name": "Forest of Sabbath - Ring of the Good Witch"
+},
+{
+"key": "143:2:0:8",
+"area": "Atlantica Locked House",
+"kind": "armor",
+"id": 117,
+"amount": 1,
+"item": "Apple Ring",
+"quest": false,
+"name": "Atlantica Locked House - Apple Ring"
+},
+{
+"key": "144:3:4:15",
+"area": "Rotten Burg",
+"kind": "armor",
+"id": 133,
+"amount": 1,
+"item": "Harlot's Ring",
+"quest": true,
+"name": "Rotten Burg - Harlot's Ring"
+},
+{
+"key": "149:3:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 39,
+"amount": 1,
+"item": "Large Soul of a Nameless Soldier",
+"quest": false,
+"name": "Rotten Burg - Large Soul of a Nameless Soldier 4"
+},
+{
+"key": "150:5:0:1",
+"area": "Rotten Burg",
+"kind": "item",
+"id": 184,
+"amount": 1,
+"item": "Succubus Fluids",
+"quest": false,
+"name": "Rotten Burg - Succubus Fluids"
+},
+{
+"key": "98:4:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 20,
+"amount": 1,
+"item": "Invisibility Powder",
+"quest": false,
+"name": "Fort Ivern - Prologue Invisibility Powder",
+"mirror": {
+"map": 2,
+"x": 40,
+"y": 5,
+"src_map": 98,
+"src_event": 4
+}
+},
+{
+"key": "98:5:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 35,
+"amount": 1,
+"item": "Fading Soul",
+"quest": false,
+"name": "Fort Ivern - Prologue Fading Soul",
+"mirror": {
+"map": 2,
+"x": 21,
+"y": 30,
+"src_map": 98,
+"src_event": 5
+}
+},
+{
+"key": "98:22:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 9,
+"amount": 1,
+"item": "Green Soul",
+"quest": false,
+"name": "Fort Ivern - Prologue Green Soul",
+"mirror": {
+"map": 2,
+"x": 34,
+"y": 5,
+"src_map": 98,
+"src_event": 22
+}
+},
+{
+"key": "98:24:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 11,
+"amount": 1,
+"item": "Red Soul",
+"quest": false,
+"name": "Fort Ivern - Prologue Red Soul",
+"mirror": {
+"map": 2,
+"x": 50,
+"y": 5,
+"src_map": 98,
+"src_event": 24
+}
+},
+{
+"key": "98:25:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 10,
+"amount": 1,
+"item": "Purple Soul",
+"quest": false,
+"name": "Fort Ivern - Prologue Purple Soul",
+"mirror": {
+"map": 2,
+"x": 20,
+"y": 5,
+"src_map": 98,
+"src_event": 25
+}
+},
+{
+"key": "99:16:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Fort Ivern - Prologue Medical Herb",
+"mirror": {
+"map": 6,
+"x": 1,
+"y": 63,
+"src_map": 99,
+"src_event": 16
+}
+},
+{
+"key": "99:17:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 3,
+"amount": 1,
+"item": "Medical Herb",
+"quest": false,
+"name": "Fort Ivern - Prologue Medical Herb 2",
+"mirror": {
+"map": 6,
+"x": 2,
+"y": 45,
+"src_map": 99,
+"src_event": 17
+}
+},
+{
+"key": "99:18:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 33,
+"amount": 1,
+"item": "Frigid Pine Resin",
+"quest": false,
+"name": "Fort Ivern - Prologue Frigid Pine Resin",
+"mirror": {
+"map": 6,
+"x": 62,
+"y": 67,
+"src_map": 99,
+"src_event": 18
+}
+},
+{
+"key": "99:19:0:1",
+"area": "Fort Ivern",
+"kind": "item",
+"id": 12,
+"amount": 1,
+"item": "Blue Soul",
+"quest": false,
+"name": "Fort Ivern - Prologue Blue Soul",
+"mirror": {
+"map": 6,
+"x": 26,
+"y": 40,
+"src_map": 99,
+"src_event": 19
+}
+}
+]
