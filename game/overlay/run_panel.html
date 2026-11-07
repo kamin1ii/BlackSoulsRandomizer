@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Run Panel</title>
+<link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+<div id="panel">
+  <div class="tab">Randomizer</div>
+  <div class="frame"><div class="inner">
+    <div class="timer" id="timer">0:00<small></small></div>
+    <div class="where" id="where">Waiting for the game</div>
+    <div class="seedline" id="seedline"> </div>
+    <div class="stats">
+      <div class="stat" id="s-level"><b>-</b><span>Level</span></div>
+      <div class="stat" id="s-souls"><b>-</b><span>Souls</span></div>
+      <div class="stat" id="s-deaths"><b>-</b><span>Deaths</span></div>
+      <div class="stat" id="s-sin"><b>-</b><span>Sin</span></div>
+      <div class="stat" id="s-bosses"><b>-</b><span>Bosses</span></div>
+    </div>
+    <div class="pages">
+      <div class="page show" id="page-run">
+        <div class="cards" id="cards"></div>
+        <div class="chips" id="chips"></div>
+        <div class="minis" id="minis"></div>
+        <div class="bookhead"><span>Fairytale books</span><b class="bookcount">0/32</b></div>
+        <div class="pips" id="pips"></div>
+      </div>
+      <div class="page" id="page-books">
+        <div class="bookhead"><span>Fairytale books</span><b class="bookcount">0/32</b></div>
+        <div class="booklist" id="booklist"></div>
+      </div>
+    </div>
+  </div></div>
+</div>
+<script src="sprites.js"></script>
+<script src="overlay.js"></script>
+<script>
+(function () {
+  // how long each page stays up, the book list takes turns with the cards
+  var RUN_PAGE_MS = 20000;
+  var BOOK_PAGE_MS = 10000;
+  var O = window.RandoOverlay;
+  var $ = function (id) { return document.getElementById(id); };
+  var built = false;
+  var last = { deaths: null, sin: null, level: null, souls: null, bosses: null };
+  var base = { igt: 0, at: 0, beat: null, running: false };
+  var shownBefore = 0;
+  var walk = 0;
+  var pact = [];
+
+  function bookName(name) {
+    return name.replace(/^Fairy-tale\s*/, "").replace(/[【】]/g, "");
+  }
+
+  function buildCards(state) {
+    $("cards").innerHTML = state.rooms.map(function (r, i) {
+      var s = O.suit(i);
+      var red = s[1] ? " red" : "";
+      return '<div class="slot"><div class="label">' + r.room + "'s</div>" +
+        '<div class="card" id="room' + i + '"><div class="flip">' +
+        '<div class="back"><div class="suit">' + s[0] + "</div></div>" +
+        '<div class="face"><div class="pip' + red + '">' + s[0] + '</div><canvas></canvas><div class="name"></div></div>' +
+        '</div></div><div class="when" id="when' + i + '"></div></div>';
+    }).join("");
+    $("minis").innerHTML = state.recruits.map(function (r, i) {
+      return '<div class="mini"><div class="label">' + r.spot + "</div>" +
+        '<div class="card" id="mini' + i + '"><div class="flip">' +
+        '<div class="back"><div class="suit">' + O.suit(i)[0] + "</div></div>" +
+        '<div class="face"><canvas></canvas></div></div></div><div class="who" id="who' + i + '"></div></div>';
+    }).join("");
+    $("chips").innerHTML = ["Cinderella", "Baphomet", "Mary Sue"].map(function (n) {
+      return '<div class="chip" id="chip-' + n + '"><span>' + n + "</span><b>-</b></div>";
+    }).join("");
+    var pips = "";
+    for (var i = 0; i < state.books_total; i++) pips += "<i></i>";
+    $("pips").innerHTML = pips;
+    built = true;
+  }
+
+  function setStat(id, key, value) {
+    var box = $(id);
+    box.querySelector("b").textContent = value;
+    if (last[key] !== null && last[key] !== value) {
+      box.classList.remove("bump");
+      void box.offsetWidth;
+      box.classList.add("bump");
+    }
+    last[key] = value;
+  }
+
+  function compact(n) {
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+    if (n >= 10000) return Math.floor(n / 1000) + "K";
+    return String(n);
+  }
+
+  O.onState(function (state) {
+    var stale = Date.now() / 1000 - state.beat > O.staleSeconds;
+    $("panel").classList.toggle("stale", stale);
+    if (!state.seed) {
+      base.running = false;
+      $("where").textContent = "On the title screen";
+      return;
+    }
+    if (!built) buildCards(state);
+    // the page reads faster than the game writes, only a new write moves the clock base
+    if (state.beat !== base.beat) base = { igt: state.igt, at: Date.now(), beat: state.beat, running: false };
+    base.running = state.phase === "play" && !stale;
+    $("where").textContent = state.phase === "title" ? "On the title screen" : (state.area || "Somewhere");
+    $("seedline").textContent = "Seed " + state.seed + "   v" + state.version + (state.lap > 0 ? "   NG+" + state.lap : "");
+    setStat("s-level", "level", state.level);
+    setStat("s-souls", "souls", compact(state.souls));
+    setStat("s-deaths", "deaths", state.deaths);
+    setStat("s-sin", "sin", state.sin);
+    setStat("s-bosses", "bosses", state.bosses);
+    pact = [];
+    state.rooms.forEach(function (r, i) {
+      var card = $("room" + i);
+      card.classList.toggle("up", !!r.who);
+      card.classList.toggle("pact", r.covenant !== null);
+      card.classList.toggle("slain", r.slain);
+      $("when" + i).textContent = r.covenant !== null ? O.clock(r.covenant) : "";
+      if (r.who) {
+        card.querySelector(".name").textContent = r.who;
+        var canvas = card.querySelector("canvas");
+        canvas.dataset.who = r.who;
+        if (r.covenant !== null) pact.push(canvas);
+        else O.drawSprite(canvas, r.who, 1, 62);
+      }
+    });
+    state.recruits.forEach(function (r, i) {
+      var card = $("mini" + i);
+      card.classList.toggle("up", !!r.who);
+      $("who" + i).textContent = r.who || "";
+      if (r.who) O.drawSprite(card.querySelector("canvas"), r.who, 1, 40);
+    });
+    ["Cinderella", "Baphomet", "Mary Sue"].forEach(function (n) {
+      var at = state.extras[n];
+      var chip = $("chip-" + n);
+      chip.classList.toggle("on", at !== undefined);
+      chip.querySelector("b").textContent = at !== undefined ? O.clock(at) : "-";
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".bookcount"), function (el) {
+      el.textContent = state.books + "/" + state.books_total;
+    });
+    Array.prototype.forEach.call($("pips").children, function (pip, i) {
+      pip.classList.toggle("on", i < state.books);
+    });
+    var list = $("booklist");
+    if (!list.children.length) {
+      list.innerHTML = state.books_list.map(function () { return "<div></div>"; }).join("");
+    }
+    state.books_list.forEach(function (b, i) {
+      var row = list.children[i];
+      row.textContent = bookName(b.name);
+      row.classList.toggle("on", b.have);
+    });
+    drawClock();
+  });
+
+  function drawClock() {
+    var shown = base.igt + (base.running ? Math.min((Date.now() - base.at) / 1000, 1.5) : 0);
+    // a small correction never makes the clock step backwards, a reloaded save still can
+    if (shown < shownBefore && shownBefore - shown < 3) shown = shownBefore;
+    shownBefore = shown;
+    var timer = $("timer");
+    timer.firstChild.textContent = O.clock(shown);
+    var hundredths = Math.floor((shown % 1) * 100);
+    timer.querySelector("small").textContent = (hundredths < 10 ? ".0" : ".") + hundredths;
+  }
+  setInterval(drawClock, 16);
+
+  // a princess you made a covenant with walks on the spot
+  setInterval(function () {
+    walk++;
+    pact.forEach(function (canvas) { O.drawSprite(canvas, canvas.dataset.who, walk, 62); });
+  }, 260);
+
+  function showPage(books) {
+    $("page-run").classList.toggle("show", !books);
+    $("page-books").classList.toggle("show", books);
+    setTimeout(function () { showPage(!books); }, books ? BOOK_PAGE_MS : RUN_PAGE_MS);
+  }
+  showPage(location.hash === "#books");
+})();
+</script>
+</body>
+</html>
