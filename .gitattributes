@@ -1,2 +1,2 @@
-upscale/** linguist-vendored
+upscale/** linguist-vendored linguist-detectable=false
 upscale/generated/** linguist-generated
