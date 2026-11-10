@@ -1012,6 +1012,55 @@ module BattleManager
   end
 end
 
+module Rando
+  # Dorothy's training counts a win at the scarecrow, the tin man and the lion, whoever fights there
+  DOROTHY_PREY = [[169, "scarecrow"], [167, "tin man"], [168, "lion"]]
+  DOROTHY_PREY_LINE = /The Scarecrow, Tin Woodman and Lion/
+  MESSAGE_WIDTH = 40
+
+  def self.prey_names(troop)
+    $data_troops[troop].members.map { |m| $data_enemies[m.enemy_id].name }.uniq
+  end
+
+  def self.prey_name(troop)
+    prey_names(troop).join(" & ")
+  end
+
+  # names each stand in with the shape its spot still shows, broken into lines that fit the window
+  def self.dorothy_prey_lines(text)
+    r = data
+    return nil unless r && text =~ DOROTHY_PREY_LINE
+    return nil if DOROTHY_PREY.all? { |t, _| !r[:swaps][t] || r[:swaps][t][0] == t }
+    # a name never breaks across lines and carries its own colour in case the message runs onto a second page
+    words = []
+    DOROTHY_PREY.each_with_index do |(t, shape), i|
+      words << "and" if i == 2
+      prey_names(r[:swaps][t] ? r[:swaps][t][0] : t).each_with_index do |n, k|
+        words << "&" if k > 0
+        words << "\\c[2]#{n}\\c[0]"
+      end
+      words.concat(["as", "the", shape])
+      words[-1] += i == 2 ? "." + text[/\.([^.]*)\z/, 1].to_s : (i == 0 ? "," : "")
+    end
+    lines = [""]
+    words.each do |w|
+      wide = (lines[-1] + " " + w).gsub(/\\c\[\d+\]/, "").size
+      lines << "" if !lines[-1].empty? && wide > MESSAGE_WIDTH - 1
+      lines[-1] = lines[-1].empty? ? w : lines[-1] + " " + w
+    end
+    lines.map { |l| "　" + l }
+  end
+end
+
+class Game_Message
+  alias rando_add add
+  def add(text)
+    lines = Rando.dorothy_prey_lines(text.to_s)
+    return rando_add(text) unless lines
+    lines.each { |l| rando_add(l) }
+  end
+end
+
 # --- title screen -------------------------------------------------------------
 
 class Window_TitleCommand
