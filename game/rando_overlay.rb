@@ -46,7 +46,7 @@ module RandoOverlay
 
   def self.log_for(r)
     r[:log] ||= { :start => 0.0, :rooms => {}, :recruits => {}, :covenants => {},
-                  :extras => {}, :beaten => {}, :area => "", :ended => nil, :letter => nil }
+                  :extras => {}, :beaten => {}, :area => "", :endings => {} }
   end
 
   def self.changed
@@ -113,13 +113,22 @@ module RandoOverlay
     end
   end
 
-  # new game plus starts a fresh lap of the same run
+  # new game plus starts a fresh lap of the same run, the timer, the endings and the one time moments carry on
+  # so a run that collects several endings keeps one clock
   def self.new_lap
     guard do
       r = world
       next unless r
+      old = r[:log]
       r[:log] = nil
-      log_for(r)[:start] = now
+      log = log_for(r)
+      unless old
+        log[:start] = now
+        next
+      end
+      log[:start] = old[:start]
+      log[:extras] = old[:extras] || {}
+      log[:endings] = old[:endings] || {}
     end
   end
 
@@ -157,14 +166,18 @@ module RandoOverlay
       log[:extras]["Cinderella"] = now - log[:start]
       changed
     end
-    return if log[:ended]
+    # every ending gets its time and the clock keeps going for the next one
+    log[:endings] ||= {}
     ENDING_SWITCHES.each do |switch_id, letter|
-      next unless $game_switches[switch_id]
-      log[:ended] = now - log[:start]
-      log[:letter] = letter
+      next if log[:endings][letter] || !$game_switches[switch_id]
+      log[:endings][letter] = now - log[:start]
       changed
-      break
     end
+  end
+
+  def self.last_ending(log)
+    pair = (log[:endings] || {}).max_by { |_letter, at| at }
+    pair ? pair[0] : nil
   end
 
   # a book handed in at the library leaves the bag, so a book once seen stays counted
@@ -191,7 +204,7 @@ module RandoOverlay
     scene = SceneManager.scene
     # the Archipelago world carries this overlay without the options screen
     return "title" if scene.is_a?(Scene_Title) || (defined?(Scene_RandoSetup) && scene.is_a?(Scene_RandoSetup))
-    log[:ended] ? "ended" : "play"
+    "play"
   end
 
   def self.rooms_state(r, log)
@@ -218,13 +231,13 @@ module RandoOverlay
   def self.state(r, log)
     lead = $game_party.members[0]
     { "phase" => phase(log), "beat" => Time.now.to_f, "version" => Rando::VERSION, "seed" => Rando.seed_text(r[:seed]),
-      "igt" => log[:ended] || (now - log[:start]), "lap" => $game_variables[LAP_VARIABLE],
+      "igt" => now - log[:start], "lap" => $game_variables[LAP_VARIABLE],
       "area" => log[:area], "level" => lead ? lead.level : 1, "souls" => $game_party.gold,
       "deaths" => $game_variables[DEATHS_VARIABLE], "sin" => $game_variables[SIN_VARIABLE],
       "books" => books_held(log), "books_total" => BOOK_IDS.size, "books_list" => books_list(log),
       "bosses" => log[:beaten].size,
       "rooms" => rooms_state(r, log), "recruits" => recruits_state(r, log),
-      "extras" => log[:extras], "ending" => log[:letter] }
+      "extras" => log[:extras], "endings" => log[:endings] || {}, "ending" => last_ending(log) }
   end
 
   def self.idle_state
