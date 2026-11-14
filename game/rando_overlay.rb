@@ -7,12 +7,16 @@ module RandoOverlay
   WRITE_FRAMES = 60
   COVENANT_SWITCHES = [434, 431, 432, 433]
   SLAIN_SWITCHES = [179, 178, 176, 177]
-  CINDERELLA_SWITCH = 553
+  # she counts as beaten when she dies, a covenant with her is not needed
+  CINDERELLA_SWITCH = 180
   BAPHOMET_RING = 113
   MARY_SUE_TROOP = 236
   BAPHOMET_MAP = 133
   BAPHOMET_EVENT = 7
-  ENDING_SWITCHES = { 442 => "A", 443 => "B", 444 => "C", 456 => "D" }
+  # touching it together with someone after Cinderella gives that companion's ending in place of A or B
+  ENDING_SWITCHES = { 442 => "A", 443 => "B", 444 => "C", 456 => "D",
+                      531 => "Leaf", 532 => "Dorothy", 533 => "Elma", 534 => "Goose", 535 => "Jeanne",
+                      536 => "Catherine", 537 => "Red Hood", 538 => "Miranda", 539 => "Elisabeth", 540 => "Victoria" }
   BOOK_IDS = (273..304).to_a
   LIBRARY_VARIABLE = 46
   SIN_VARIABLE = 38
