@@ -228,9 +228,20 @@ module RandoOverlay
     end
   end
 
+  # the tab over the panel, the Archipelago world calls itself that
+  def self.title
+    "Randomizer"
+  end
+
+  # the line under the area, the Archipelago world shows its own seed and slot here
+  def self.seed_line(r)
+    "Seed " + Rando.seed_text(r[:seed])
+  end
+
   def self.state(r, log)
     lead = $game_party.members[0]
     { "phase" => phase(log), "beat" => Time.now.to_f, "version" => Rando::VERSION, "seed" => Rando.seed_text(r[:seed]),
+      "seed_line" => seed_line(r), "title" => title,
       "igt" => now - log[:start], "lap" => $game_variables[LAP_VARIABLE],
       "area" => log[:area], "level" => lead ? lead.level : 1, "souls" => $game_party.gold,
       "deaths" => $game_variables[DEATHS_VARIABLE], "sin" => $game_variables[SIN_VARIABLE],
@@ -241,7 +252,7 @@ module RandoOverlay
   end
 
   def self.idle_state
-    { "phase" => "title", "beat" => Time.now.to_f, "version" => Rando::VERSION, "seed" => nil }
+    { "phase" => "title", "beat" => Time.now.to_f, "version" => Rando::VERSION, "seed" => nil, "title" => title }
   end
 
   # --- writing --------------------------------------------------------------------

@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="panel">
-  <div class="tab">Randomizer</div>
+  <div class="tab" id="tab">Randomizer</div>
   <div class="frame"><div class="inner">
     <div class="timer" id="timer">0:00<small></small></div>
     <div class="where" id="where">Waiting for the game</div>
@@ -104,6 +104,7 @@
   O.onState(function (state) {
     var stale = Date.now() / 1000 - state.beat > O.staleSeconds;
     $("panel").classList.toggle("stale", stale);
+    if (state.title) $("tab").textContent = state.title;
     if (!state.seed) {
       base.running = false;
       $("where").textContent = "On the title screen";
@@ -114,7 +115,7 @@
     if (state.beat !== base.beat) base = { igt: state.igt, at: Date.now(), beat: state.beat, running: false };
     base.running = state.phase === "play" && !stale;
     $("where").textContent = state.phase === "title" ? "On the title screen" : (state.area || "Somewhere");
-    $("seedline").textContent = "Seed " + state.seed + "   v" + state.version + (state.lap > 0 ? "   NG+" + state.lap : "");
+    $("seedline").textContent = (state.seed_line || "Seed " + state.seed) + "   v" + state.version + (state.lap > 0 ? "   NG+" + state.lap : "");
     setStat("s-level", "level", state.level);
     setStat("s-souls", "souls", compact(state.souls));
     setStat("s-deaths", "deaths", state.deaths);
