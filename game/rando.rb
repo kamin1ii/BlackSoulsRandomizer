@@ -1014,34 +1014,24 @@ end
 
 module Rando
   # Dorothy's training counts a win at the scarecrow, the tin man and the lion, whoever fights there
-  DOROTHY_PREY = [[169, "scarecrow"], [167, "tin man"], [168, "lion"]]
+  # in the order her line names them, the scarecrow, the tin man and the lion
+  DOROTHY_PREY = [169, 167, 168]
   DOROTHY_PREY_LINE = /The Scarecrow, Tin Woodman and Lion/
   MESSAGE_WIDTH = 40
 
-  def self.prey_names(troop)
-    $data_troops[troop].members.map { |m| $data_enemies[m.enemy_id].name }.uniq
-  end
-
   def self.prey_name(troop)
-    prey_names(troop).join(" & ")
+    $data_troops[troop].members.map { |m| $data_enemies[m.enemy_id].name }.uniq.join(" & ")
   end
 
-  # names each stand in with the shape its spot still shows, broken into lines that fit the window
+  # her own line with whoever fights at the three spots in place of the three names
   def self.dorothy_prey_lines(text)
     r = data
     return nil unless r && text =~ DOROTHY_PREY_LINE
-    return nil if DOROTHY_PREY.all? { |t, _| !r[:swaps][t] || r[:swaps][t][0] == t }
-    # a name never breaks across lines and carries its own colour in case the message runs onto a second page
-    words = []
-    DOROTHY_PREY.each_with_index do |(t, shape), i|
-      words << "and" if i == 2
-      prey_names(r[:swaps][t] ? r[:swaps][t][0] : t).each_with_index do |n, k|
-        words << "&" if k > 0
-        words << "\\c[2]#{n}\\c[0]"
-      end
-      words.concat(["as", "the", shape])
-      words[-1] += i == 2 ? "." + text[/\.([^.]*)\z/, 1].to_s : (i == 0 ? "," : "")
-    end
+    return nil if DOROTHY_PREY.all? { |t| !r[:swaps][t] || r[:swaps][t][0] == t }
+    names = DOROTHY_PREY.map { |t| prey_name(r[:swaps][t] ? r[:swaps][t][0] : t) }
+    # a name never breaks across lines and every piece carries the colour in case the message runs onto a second page
+    words = [names[0] + ",", names[1], "and", names[2]].map { |w| "\\c[2]#{w}\\c[0]" }
+    words[-1] += "." + text[/\.([^.]*)\z/, 1].to_s
     lines = [""]
     words.each do |w|
       wide = (lines[-1] + " " + w).gsub(/\\c\[\d+\]/, "").size
