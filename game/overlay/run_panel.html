@@ -54,11 +54,16 @@
     return name.replace(/^Fairy-tale\s*/, "").replace(/[【】]/g, "");
   }
 
+  // one line per label, Princess Frog's room reads Frog's and Little Mermaid's reads Mermaid's
+  function shortRoom(name) {
+    return name.replace(/^(Princess|Little)\s+/, "");
+  }
+
   function buildCards(state) {
     $("cards").innerHTML = state.rooms.map(function (r, i) {
       var s = O.suit(i);
       var red = s[1] ? " red" : "";
-      return '<div class="slot"><div class="label">' + r.room + "'s</div>" +
+      return '<div class="slot"><div class="label">' + shortRoom(r.room) + "'s</div>" +
         '<div class="card" id="room' + i + '"><div class="flip">' +
         '<div class="back"><div class="suit">' + s[0] + "</div></div>" +
         '<div class="face"><div class="pip' + red + '">' + s[0] + '</div><canvas></canvas><div class="name"></div></div>' +
@@ -134,7 +139,7 @@
       var card = $("mini" + i);
       card.classList.toggle("up", !!r.who);
       $("who" + i).textContent = r.who || "";
-      if (r.who) O.drawSprite(card.querySelector("canvas"), r.who, 1, 40);
+      if (r.who) O.drawSprite(card.querySelector("canvas"), r.who, 1, 48, 1.5);
     });
     ["Cinderella", "Baphomet", "Mary Sue"].forEach(function (n) {
       var at = state.extras[n];
