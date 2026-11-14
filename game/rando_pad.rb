@@ -29,12 +29,23 @@ module RandoPad
   ERROR_NOT_CONNECTED = 1167
   HKEY_CURRENT_USER = 0x80000001
   KEY_READ = 0x20019
+  DIRECTIONS = [:UP, :DOWN, :LEFT, :RIGHT]
+  # the arrow keys and the number pad, read directly while the engine's own directions are ignored
+  ARROW_KEYS = { :UP => [0x26, 0x68], :DOWN => [0x28, 0x62], :LEFT => [0x25, 0x64], :RIGHT => [0x27, 0x66] }
+  KEY_DOWN_BIT = 0x8000
+  JOY_IDS = 16
+  JOY_INFO_SIZE = 52
+  JOY_RETURN_ALL = 0xFF
+  JOY_CENTER = 8192..57343
 
   @held = {}
   @ghost = {}
   @slots = []
   @scan = 0
   @stick = {}
+  @joy_scan = 0
+  @joy_seen = {}
+  @engine_dirs = true
 
   def self.reset
     @held = {}
@@ -46,6 +57,43 @@ module RandoPad
     @engine_map = nil
     @broken = false
     @foreground = nil
+    @joy_scan = 0
+    @joy_seen = {}
+    @engine_dirs = true
+  end
+
+  # a sleeping wireless dongle or a keyboard's joystick channel reads as a stick pushed all the way and walks the
+  # player off on its own, so the engine's directions only count once every joystick has been seen resting
+  def self.check_engine_sticks
+    @joy_pos ||= Win32API.new("winmm", "joyGetPosEx", "LP", "L")
+    JOY_IDS.times do |id|
+      info = [JOY_INFO_SIZE, JOY_RETURN_ALL].pack("LL") + "\0" * (JOY_INFO_SIZE - 8)
+      next unless @joy_pos.call(id, info) == 0
+      x, y = info.unpack("x8LL")
+      @joy_seen[id] = true if JOY_CENTER.include?(x) && JOY_CENTER.include?(y)
+      return false unless @joy_seen[id]
+    end
+    true
+  rescue StandardError
+    true
+  end
+
+  def self.engine_dirs?
+    @engine_dirs
+  end
+
+  # the engine's report of a direction is left out while a joystick that never rests is plugged in
+  def self.engine_ok?(key)
+    @engine_dirs || !DIRECTIONS.include?(symbol(key))
+  end
+
+  def self.keyboard_dirs
+    @key_state ||= Win32API.new("user32", "GetAsyncKeyState", "i", "i")
+    held = {}
+    ARROW_KEYS.each do |dir, codes|
+      held[dir] = true if codes.any? { |c| @key_state.call(c) & KEY_DOWN_BIT != 0 }
+    end
+    held
   end
 
   def self.get_state
@@ -116,18 +164,23 @@ module RandoPad
   def self.poll
     return if @broken
     get_state
-    return unless @get_state
     @scan -= 1
     if @scan <= 0
-      scan_slots
+      scan_slots if @get_state
       @scan = SCAN_EVERY
+    end
+    @joy_scan -= 1
+    if @joy_scan <= 0
+      @engine_dirs = check_engine_sticks
+      @joy_scan = SCAN_EVERY
     end
     buttons = 0
     lx = 0
     ly = 0
     rt = 0
     connected = false
-    if focused?
+    focus = focused?
+    if focus && @get_state
       @slots.dup.each do |slot|
         state = read_slot(slot)
         unless state
@@ -141,7 +194,8 @@ module RandoPad
         ly = state[5] if state[5].abs > ly.abs
       end
     end
-    apply(connected, buttons, rt, lx, ly)
+    keys = focus && !@engine_dirs ? keyboard_dirs : {}
+    apply(connected, buttons, rt, lx, ly, keys)
   rescue StandardError
     @broken = true
     @held = {}
@@ -153,8 +207,8 @@ module RandoPad
     @stick[name] = active && value >= limit
   end
 
-  def self.apply(connected, buttons, rt, lx, ly)
-    down = {}
+  def self.apply(connected, buttons, rt, lx, ly, keys = {})
+    down = keys.dup
     if connected
       ACTIONS.each { |bit, key| down[key] = true if buttons & bit != 0 }
       down[:CTRL] = true if rt >= TRIGGER_ON
@@ -228,29 +282,31 @@ module Input
 
     alias rando_press? press? unless method_defined?(:rando_press?)
     def press?(key)
-      RandoPad.press?(key) || (rando_press?(key) && !RandoPad.ghost?(key))
+      RandoPad.press?(key) || (RandoPad.engine_ok?(key) && rando_press?(key) && !RandoPad.ghost?(key))
     end
 
     alias rando_trigger? trigger? unless method_defined?(:rando_trigger?)
     def trigger?(key)
-      RandoPad.trigger?(key) || (rando_trigger?(key) && !RandoPad.ghost?(key))
+      RandoPad.trigger?(key) || (RandoPad.engine_ok?(key) && rando_trigger?(key) && !RandoPad.ghost?(key))
     end
 
     alias rando_repeat? repeat? unless method_defined?(:rando_repeat?)
     def repeat?(key)
-      RandoPad.repeat?(key) || (rando_repeat?(key) && !RandoPad.ghost?(key))
+      RandoPad.repeat?(key) || (RandoPad.engine_ok?(key) && rando_repeat?(key) && !RandoPad.ghost?(key))
     end
 
     alias rando_dir4 dir4 unless method_defined?(:rando_dir4)
     def dir4
       d = RandoPad.dir4
-      d > 0 ? d : rando_dir4
+      return d if d > 0 || !RandoPad.engine_dirs?
+      rando_dir4
     end
 
     alias rando_dir8 dir8 unless method_defined?(:rando_dir8)
     def dir8
       d = RandoPad.dir8
-      d > 0 ? d : rando_dir8
+      return d if d > 0 || !RandoPad.engine_dirs?
+      rando_dir8
     end
   end
 end
