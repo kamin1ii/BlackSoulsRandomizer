@@ -185,7 +185,8 @@ module RandoOverlay
 
   def self.phase(log)
     scene = SceneManager.scene
-    return "title" if scene.is_a?(Scene_Title) || scene.is_a?(Scene_RandoSetup)
+    # the Archipelago world carries this overlay without the options screen
+    return "title" if scene.is_a?(Scene_Title) || (defined?(Scene_RandoSetup) && scene.is_a?(Scene_RandoSetup))
     log[:ended] ? "ended" : "play"
   end
 
