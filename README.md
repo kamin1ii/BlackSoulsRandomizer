@@ -27,3 +27,9 @@ Xbox controllers work directly. A confirms, B cancels, X runs and Start opens th
 ### Window sizing
 
 Drag the window bigger or press F6 to step through sizes.
+
+### Stream overlay
+
+Add `BLACK SOULS Randomizer/Randomizer/overlay/run_panel.html` to OBS as a browser source with Local file ticked, 504 tall and about 420 wide. It shows the in-game timer, the area, your level, souls, deaths, sin and bosses beaten, then fills in the princess rooms, companions and fairytale books as you find them. Nothing still hidden is shown, so it is safe to stream.
+
+![The stream overlay partway through a run](screenshots/overlay.png)
