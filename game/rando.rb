@@ -2,7 +2,7 @@
 # Rolled in game from the seed and options set on the title screen
 
 module Rando
-  VERSION = "1.0.1"
+  VERSION = "1.0.2"
 end
 
 class RandoRng
