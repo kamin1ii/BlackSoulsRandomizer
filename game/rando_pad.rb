@@ -37,6 +37,8 @@ module RandoPad
   JOY_INFO_SIZE = 52
   JOY_RETURN_ALL = 0xFF
   JOY_CENTER = 8192..57343
+  # asking Windows about an empty joystick slot can take over 10 ms, so all of them are only asked about now and then
+  JOY_FULL_EVERY = 3600
 
   @held = {}
   @ghost = {}
@@ -44,7 +46,9 @@ module RandoPad
   @scan = 0
   @stick = {}
   @joy_scan = 0
+  @joy_full = 0
   @joy_seen = {}
+  @joy_stuck = {}
   @engine_dirs = true
 
   def self.reset
@@ -58,22 +62,32 @@ module RandoPad
     @broken = false
     @foreground = nil
     @joy_scan = 0
+    @joy_full = 0
     @joy_seen = {}
+    @joy_stuck = {}
     @engine_dirs = true
   end
 
   # a sleeping wireless dongle or a keyboard's joystick channel reads as a stick pushed all the way and walks the
   # player off on its own, so the engine's directions only count once every joystick has been seen resting
-  def self.check_engine_sticks
+  # a full check asks every slot, the quick one only the sticks already found pushed, and a stick once seen
+  # resting is never asked about again
+  def self.check_engine_sticks(full)
     @joy_pos ||= Win32API.new("winmm", "joyGetPosEx", "LP", "L")
-    JOY_IDS.times do |id|
+    ids = full ? (0...JOY_IDS).to_a : @joy_stuck.keys
+    ids.each do |id|
+      next if @joy_seen[id]
       info = [JOY_INFO_SIZE, JOY_RETURN_ALL].pack("LL") + "\0" * (JOY_INFO_SIZE - 8)
       next unless @joy_pos.call(id, info) == 0
       x, y = info.unpack("x8LL")
-      @joy_seen[id] = true if JOY_CENTER.include?(x) && JOY_CENTER.include?(y)
-      return false unless @joy_seen[id]
+      if JOY_CENTER.include?(x) && JOY_CENTER.include?(y)
+        @joy_seen[id] = true
+        @joy_stuck.delete(id)
+      else
+        @joy_stuck[id] = true
+      end
     end
-    true
+    @joy_stuck.empty?
   rescue StandardError
     true
   end
@@ -170,8 +184,13 @@ module RandoPad
       @scan = SCAN_EVERY
     end
     @joy_scan -= 1
-    if @joy_scan <= 0
-      @engine_dirs = check_engine_sticks
+    @joy_full -= 1
+    if @joy_full <= 0
+      @engine_dirs = check_engine_sticks(true)
+      @joy_full = JOY_FULL_EVERY
+      @joy_scan = SCAN_EVERY
+    elsif @joy_scan <= 0
+      @engine_dirs = check_engine_sticks(false)
       @joy_scan = SCAN_EVERY
     end
     buttons = 0
